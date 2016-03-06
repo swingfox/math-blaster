@@ -1,0 +1,169 @@
+{
+  "ID": "14fdb517-47ca-4f3a-a7f8-63f61f732261",
+  "Version": "3.10.0.0",
+  "Name": "homeButtonLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 6,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/HomePlayBtn.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 240.5573,
+              "Y": 239.7082
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2506,
+              "Y": 0.3745
+            },
+            "PreSize": {
+              "X": 0.201,
+              "Y": 0.0797
+            },
+            "LeftMargin": 144.0573,
+            "RightMargin": 622.9427,
+            "TopMargin": 374.7918,
+            "BottomMargin": 214.2082,
+            "Tag": 53,
+            "ActionTag": 934326561,
+            "Size": {
+              "X": 193.0,
+              "Y": 51.0
+            },
+            "Name": "btnPlay",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/HomeQuitBtn.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 243.7641,
+              "Y": 92.1718
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2539,
+              "Y": 0.144
+            },
+            "PreSize": {
+              "X": 0.201,
+              "Y": 0.0797
+            },
+            "LeftMargin": 147.2641,
+            "RightMargin": 619.736,
+            "TopMargin": 522.3282,
+            "BottomMargin": 66.6718,
+            "Tag": 54,
+            "ActionTag": 798023087,
+            "Size": {
+              "X": 193.0,
+              "Y": 51.0
+            },
+            "Name": "btnQuit",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/HomeInstructionBtn.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 242.6951,
+              "Y": 170.2167
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2528,
+              "Y": 0.266
+            },
+            "PreSize": {
+              "X": 0.201,
+              "Y": 0.0797
+            },
+            "LeftMargin": 146.1951,
+            "RightMargin": 620.8049,
+            "TopMargin": 444.2833,
+            "BottomMargin": 144.7167,
+            "Tag": 55,
+            "ActionTag": -1401303698,
+            "Size": {
+              "X": 193.0,
+              "Y": 51.0
+            },
+            "Name": "btnInstruction",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "media/graphics/HomeInstructionBtn.png",
+        "media/graphics/HomePlayBtn.png",
+        "media/graphics/HomeQuitBtn.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

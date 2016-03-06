@@ -1,0 +1,155 @@
+{
+  "ID": "36c7f14f-a838-4a5a-8fc4-7103b10a35fc",
+  "Version": "3.10.0.0",
+  "Name": "layerInstruction",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 13,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/InstructionScreen.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.9789,
+              "Y": 317.7536
+            },
+            "Scale": {
+              "ScaleX": 1.1904,
+              "ScaleY": 1.058
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.501,
+              "Y": 0.4965
+            },
+            "PreSize": {
+              "X": 0.8333,
+              "Y": 0.9375
+            },
+            "LeftMargin": 80.9789,
+            "RightMargin": 79.0211,
+            "TopMargin": 22.2464,
+            "BottomMargin": 17.7536,
+            "Tag": 14,
+            "ActionTag": 1821656929,
+            "Size": {
+              "X": 800.0,
+              "Y": 600.0
+            },
+            "Name": "instructionSprite",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/back.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 103,
+            "Scale9Height": 27,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 720.3914,
+              "Y": 102.2913
+            },
+            "Scale": {
+              "ScaleX": 1.5834,
+              "ScaleY": 1.2418
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7504,
+              "Y": 0.1598
+            },
+            "PreSize": {
+              "X": 0.1385,
+              "Y": 0.0766
+            },
+            "LeftMargin": 653.8914,
+            "RightMargin": 173.1086,
+            "TopMargin": 513.2087,
+            "BottomMargin": 77.7913,
+            "Tag": 15,
+            "ActionTag": -36909270,
+            "Size": {
+              "X": 133.0,
+              "Y": 49.0
+            },
+            "Name": "btnBack",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/Button_Press.png",
+        "media/graphics/back.png",
+        "media/graphics/InstructionScreen.jpg"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

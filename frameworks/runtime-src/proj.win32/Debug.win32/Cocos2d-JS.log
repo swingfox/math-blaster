@@ -1,0 +1,116 @@
+﻿Build started 02/06/2016 8:48:46 PM.
+     1>Project "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Cocos2d-JS.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\..\Classes" /I"C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\..\Classes\service" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\tools\simulator\libsimulator\lib\runtime" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\tools\simulator\libsimulator\lib\protobuf-lite" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\external\win32-specific\zlib\include" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\tools\simulator\libsimulator\proj.win32" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\tools\simulator\libsimulator\lib" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\\" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\base" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\external" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\storage" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\editor-support" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\auto" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\manual" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\audio\include" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\external\spidermonkey\include\win32" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\external\chipmunk\include\chipmunk" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\external\curl\include\win32" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\extensions" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\editor-support" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\\" /I"C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D XP_WIN /D JS_HAVE___INTN /D JS_INTPTR_TYPE=int /D COCOS2D_DEBUG=1 /D COCOS2D_JAVASCRIPT=1 /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D GLFW_EXPOSE_NATIVE_WIN32 /D GLFW_EXPOSE_NATIVE_WGL /D _USRJSSTATIC /D _USRLIBSIMSTATIC /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /wd4800 /wd4099 /FIalgorithm /analyze- /errorReport:prompt "..\Classes\ide-support\RuntimeJsImpl.cpp" "..\Classes\ide-support\SimpleConfigParser.cpp" main.cpp ..\Classes\AppDelegate.cpp SimulatorWin.cpp
+         RuntimeJsImpl.cpp
+         SimpleConfigParser.cpp
+         main.cpp
+         AppDelegate.cpp
+     1>c:\users\david\documents\cocos\cocosprojects\cocos2d-js\frameworks\runtime-src\classes\appdelegate.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'float'
+         SimulatorWin.cpp
+     1>c:\users\david\documents\cocos\cocosprojects\cocos2d-js\frameworks\runtime-src\proj.win32\simulatorwin.cpp(397): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\david\documents\cocos\cocosprojects\cocos2d-js\frameworks\runtime-src\proj.win32\simulatorwin.cpp(731): warning C4018: '<' : signed/unsigned mismatch
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _DEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /IDebug.win32\ /nologo /fo"Debug.win32\game.res" game.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\Cocos2d-JS.exe) does not match the Linker's OutputFile property value (C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\Cocos2d-JS.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       PreLinkEvent:
+         if not exist "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\" mkdir "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\cocos2d-x\cocos2d-x-3.10\prebuilt\win32\*.*" "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         60 File(s) copied
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\../../../simulator/win32/Cocos2d-JS.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\\" /LIBPATH:"C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\\" libcurl_imp.lib "mozjs-33.lib" ws2_32.lib sqlite3.lib websockets.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\../../../simulator/win32/Cocos2d-JS.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\Cocos2d-JS.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\RuntimeJsImpl.obj
+         Debug.win32\SimpleConfigParser.obj
+         Debug.win32\main.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\SimulatorWin.obj
+     1>RuntimeJsImpl.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\Cocos2d-JS.lib and object C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\Cocos2d-JS.exp
+         Cocos2d-JS.vcxproj -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\Cocos2d-JS.exe
+       CustomBuildStep:
+         if not exist "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" mkdir "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy "C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script" "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\script" /D /E /I /F /Y
+         xcopy "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\..\..\..\src" "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\src" /D /E /I /F /Y
+         xcopy "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\..\..\..\res" "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\res" /D /E /I /F /Y
+         copy "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\..\..\..\main.js" "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" /Y
+         copy "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\..\..\..\project.json" "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" /Y
+         xcopy /Y /Q "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\*.dll" "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy /Y /Q "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\..\Classes\ide-support\lang" "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         :VCEnd
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_audioengine.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_audioengine.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_boot.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_boot.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_cocos2d.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_cocos2d.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_cocos2d_constants.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_cocos2d_constants.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_cocosbuilder.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_cocosbuilder.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_common.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_common.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_create_apis.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_create_apis.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_debugger.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_debugger.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_deprecated.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_deprecated.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_loaders.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_loaders.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_opengl.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_opengl.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_opengl_constants.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_opengl_constants.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_pool.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_pool.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_prepare.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_prepare.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_property_apis.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_property_apis.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_property_impls.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_property_impls.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\jsb_spine.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\jsb_spine.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\3d\jsb_cocos2d_3d.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\3d\jsb_cocos2d_3d.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\3d\jsb_cocos2d_3d_ext.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\3d\jsb_cocos2d_3d_ext.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\ccui\jsb_ccui_create_apis.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\ccui\jsb_ccui_create_apis.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\ccui\jsb_ccui_deprecated.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\ccui\jsb_ccui_deprecated.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\ccui\jsb_ccui_property_apis.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\ccui\jsb_ccui_property_apis.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\ccui\jsb_ccui_property_impls.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\ccui\jsb_ccui_property_impls.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\ccui\jsb_cocos2d_ui.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\ccui\jsb_cocos2d_ui.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\chipmunk\jsb_chipmunk.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\chipmunk\jsb_chipmunk.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\chipmunk\jsb_chipmunk_constants.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\chipmunk\jsb_chipmunk_constants.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\debugger\DevToolsUtils.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\debugger\DevToolsUtils.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\debugger\main.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\debugger\main.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\debugger\README.md -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\debugger\README.md
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\debugger\transport.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\debugger\transport.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\debugger\actors\root.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\debugger\actors\root.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\debugger\actors\script.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\debugger\actors\script.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\debugger\core\promise.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\debugger\core\promise.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\extension\jsb_cocos2d_extension.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\extension\jsb_cocos2d_extension.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\extension\jsb_ext_create_apis.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\extension\jsb_ext_create_apis.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\extension\jsb_ext_property_apis.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\extension\jsb_ext_property_apis.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\navmesh\jsb_navmesh.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\navmesh\jsb_navmesh.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\physics3d\jsb_physics3d.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\physics3d\jsb_physics3d.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\physicsSprite\jsb_physicsSprite.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\physicsSprite\jsb_physicsSprite.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\jsb_cocos2d_studio.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\jsb_cocos2d_studio.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\jsb_studio_boot.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\jsb_studio_boot.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\jsb_studio_create_apis.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\jsb_studio_create_apis.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\jsb_studio_load.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\jsb_studio_load.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\jsb_studio_property_apis.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\jsb_studio_property_apis.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\parsers\action-1.x.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\parsers\action-1.x.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\parsers\action-2.x.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\parsers\action-2.x.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\parsers\compatible.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\parsers\compatible.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\parsers\scene-1.x.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\parsers\scene-1.x.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\parsers\timelineParser-1.x.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\parsers\timelineParser-1.x.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\parsers\timelineParser-2.x.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\parsers\timelineParser-2.x.js
+         C:\Cocos\cocos2d-x\cocos2d-x-3.10\cocos\scripting\js-bindings\script\studio\parsers\uiParser-1.x.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\script\studio\parsers\uiParser-1.x.js
+         52 File(s) copied
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\src\app.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\src\app.js
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\src\resource.js -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\src\resource.js
+         2 File(s) copied
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\res\HelloWorld.png -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\res\HelloWorld.png
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\res\home.jpg -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\res\home.jpg
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\res\HomeScene.json -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\res\HomeScene.json
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\res\MainScene.json -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\res\MainScene.json
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\res\Default\Button_Disable.png -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\res\Default\Button_Disable.png
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\res\media\graphics\home.jpg -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\res\media\graphics\home.jpg
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\res\media\graphics\HomeInstructionBtn.png -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\res\media\graphics\HomeInstructionBtn.png
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\res\media\graphics\HomePlayBtn.png -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\res\media\graphics\HomePlayBtn.png
+         C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\res\media\graphics\HomeQuitBtn.png -> C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\simulator\win32\res\media\graphics\HomeQuitBtn.png
+         9 File(s) copied
+                 1 file(s) copied.
+                 1 file(s) copied.
+         16 File(s) copied
+         1 File(s) copied
+     1>Done Building Project "C:\Users\David\Documents\Cocos\CocosProjects\Cocos2d-JS\frameworks\runtime-src\proj.win32\Cocos2d-JS.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:10.99

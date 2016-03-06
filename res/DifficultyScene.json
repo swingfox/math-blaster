@@ -1,0 +1,117 @@
+{
+  "ID": "f1d6c596-0d2b-4bea-aa90-25bd3fb25aaa",
+  "Version": "3.10.0.0",
+  "Name": "DifficultyScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 16,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/home.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.9806,
+              "Y": 319.9288
+            },
+            "Scale": {
+              "ScaleX": 1.1959,
+              "ScaleY": 1.058
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.501,
+              "Y": 0.4999
+            },
+            "PreSize": {
+              "X": 0.8333,
+              "Y": 0.9375
+            },
+            "LeftMargin": 80.9806,
+            "RightMargin": 79.0194,
+            "TopMargin": 20.0712,
+            "BottomMargin": 19.9288,
+            "Tag": 17,
+            "ActionTag": -211383125,
+            "Size": {
+              "X": 800.0,
+              "Y": 600.0
+            },
+            "Name": "spriteBackground",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "difficultyLayer.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 2.1757,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0023,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 2.1757,
+            "RightMargin": -2.1757,
+            "Tag": 70,
+            "ActionTag": 216354442,
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "Name": "difficultyLayer",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "difficultyLayer.json",
+        "media/graphics/home.jpg"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

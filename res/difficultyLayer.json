@@ -1,0 +1,385 @@
+{
+  "ID": "ede52744-bb54-47bd-8302-f6d2eff6c06f",
+  "Version": "3.10.0.0",
+  "Name": "difficultyLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 64,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/wood.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 476.4644,
+              "Y": 335.4038
+            },
+            "Scale": {
+              "ScaleX": 0.9548,
+              "ScaleY": 0.9836
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4963,
+              "Y": 0.5241
+            },
+            "PreSize": {
+              "X": 0.4198,
+              "Y": 0.6266
+            },
+            "LeftMargin": 274.9644,
+            "RightMargin": 282.0356,
+            "TopMargin": 104.0962,
+            "BottomMargin": 134.9038,
+            "Tag": 65,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "media/graphics/exit.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 7,
+                "Scale9Height": 15,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 377.0435,
+                  "Y": 368.737
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9356,
+                  "Y": 0.9195
+                },
+                "PreSize": {
+                  "X": 0.0918,
+                  "Y": 0.0923
+                },
+                "LeftMargin": 358.5435,
+                "RightMargin": 7.4565,
+                "TopMargin": 13.763,
+                "BottomMargin": 350.237,
+                "Tag": 66,
+                "ActionTag": -1754212356,
+                "Size": {
+                  "X": 37.0,
+                  "Y": 37.0
+                },
+                "Name": "btnClose",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "media/graphics/EasyButton.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 163,
+                "Scale9Height": 30,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 206.9649,
+                  "Y": 259.6359
+                },
+                "Scale": {
+                  "ScaleX": 1.0106,
+                  "ScaleY": 1.0873
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5136,
+                  "Y": 0.6475
+                },
+                "PreSize": {
+                  "X": 0.4789,
+                  "Y": 0.1297
+                },
+                "LeftMargin": 110.4649,
+                "RightMargin": 99.5351,
+                "TopMargin": 115.3641,
+                "BottomMargin": 233.6359,
+                "Tag": 67,
+                "ActionTag": 1395460283,
+                "Size": {
+                  "X": 193.0,
+                  "Y": 52.0
+                },
+                "Name": "btnEasy",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "media/graphics/advanceBtn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 166,
+                "Scale9Height": 29,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 208.8358,
+                  "Y": 191.4625
+                },
+                "Scale": {
+                  "ScaleX": 1.0106,
+                  "ScaleY": 1.0873
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5182,
+                  "Y": 0.4775
+                },
+                "PreSize": {
+                  "X": 0.4864,
+                  "Y": 0.1272
+                },
+                "LeftMargin": 110.8358,
+                "RightMargin": 96.1642,
+                "TopMargin": 184.0375,
+                "BottomMargin": 165.9625,
+                "Tag": 68,
+                "ActionTag": 375689454,
+                "Size": {
+                  "X": 196.0,
+                  "Y": 51.0
+                },
+                "Name": "btnAdvanced",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "media/graphics/diffBtn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 163,
+                "Scale9Height": 29,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 205.5405,
+                  "Y": 123.289
+                },
+                "Scale": {
+                  "ScaleX": 1.0106,
+                  "ScaleY": 1.0873
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.51,
+                  "Y": 0.3075
+                },
+                "PreSize": {
+                  "X": 0.4789,
+                  "Y": 0.1272
+                },
+                "LeftMargin": 109.0405,
+                "RightMargin": 100.9595,
+                "TopMargin": 252.211,
+                "BottomMargin": 97.789,
+                "Tag": 69,
+                "ActionTag": 156205288,
+                "Size": {
+                  "X": 193.0,
+                  "Y": 51.0
+                },
+                "Name": "btnDifficult",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -535959387,
+            "Size": {
+              "X": 403.0,
+              "Y": 401.0
+            },
+            "Name": "wood",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/Button_Press.png",
+        "media/graphics/advanceBtn.png",
+        "media/graphics/diffBtn.png",
+        "media/graphics/EasyButton.png",
+        "media/graphics/exit.png",
+        "media/graphics/wood.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,67 @@
+<Solution>
+  <PropertyGroup Name="MathBlaster" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="media">
+          <Folder Name="Fonts">
+            <TTF Name="Articula Display SSi.ttf" />
+            <TTF Name="Deanna.ttf" />
+            <TTF Name="impact.ttf" />
+            <TTF Name="Strange world.ttf" />
+          </Folder>
+          <Folder Name="graphics">
+            <Image Name="advanceBtn.png" />
+            <Image Name="back.png" />
+            <Image Name="CorMsg.png" />
+            <Image Name="diffBtn.png" />
+            <Image Name="diffComplete.png" />
+            <Image Name="EasyButton.png" />
+            <Image Name="exit.png" />
+            <Image Name="fairySpeech.png" />
+            <Image Name="fairySpritesheet.png" />
+            <File Name="fairySpritesheet.xml" />
+            <Image Name="frogattack.png" />
+            <Image Name="home.jpg" />
+            <Image Name="homeIcon.PNG" />
+            <Image Name="HomeInstructionBtn.png" />
+            <Image Name="HomePlayBtn.png" />
+            <Image Name="HomeQuitBtn.png" />
+            <Image Name="InstructionScreen.jpg" />
+            <Image Name="life.png" />
+            <Image Name="line.png" />
+            <Image Name="menu.png" />
+            <Image Name="MrFroggy.png" />
+            <Image Name="msgbox.png" />
+            <Image Name="myspritesheet.png" />
+            <File Name="myspritesheet.xml" />
+            <Image Name="scrollCom.png" />
+            <Image Name="silver.png" />
+            <Image Name="srcroll.png" />
+            <Image Name="startgame background.png" />
+            <File Name="tongue.xml" />
+            <Image Name="white.png" />
+            <Image Name="wood.png" />
+          </Folder>
+          <Folder Name="sounds">
+            <Audio Name="bit of fun.mp3" />
+            <Audio Name="swallowing.mp3" />
+          </Folder>
+        </Folder>
+        <Project Name="difficultyLayer.csd" Type="Layer" />
+        <Project Name="DifficultyScene.csd" Type="Scene" />
+        <Project Name="firstLayer.csd" Type="Layer" />
+        <Image Name="HelloWorld.png" />
+        <Project Name="homeBackgroundLayer.csd" Type="Layer" />
+        <Project Name="homeButtonLayer.csd" Type="Layer" />
+        <Project Name="layerBackgroundPlay.csd" Type="Layer" />
+        <Project Name="layerInstruction.csd" Type="Layer" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Project Name="MenuLayer.csd" Type="Layer" />
+        <Project Name="nodeOptions.csd" Type="Node" />
+        <Project Name="PlayScene.csd" Type="Scene" />
+        <Project Name="Scene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
