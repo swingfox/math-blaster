@@ -5,18 +5,21 @@
       <RootFolder Name=".">
         <Folder Name="media">
           <Folder Name="Fonts">
-            <TTF Name="Articula Display SSi.ttf" />
+            <TTF Name="ArticulaDisplaySSI.ttf" />
             <TTF Name="Deanna.ttf" />
-            <TTF Name="impact.ttf" />
-            <TTF Name="Strange world.ttf" />
+            <TTF Name="Impact.ttf" />
+            <TTF Name="StrangeWorld.ttf" />
           </Folder>
           <Folder Name="graphics">
             <Image Name="advanceBtn.png" />
+            <Image Name="advancedMode.png" />
             <Image Name="back.png" />
-            <Image Name="CorMsg.png" />
+            <Image Name="buttonOK.PNG" />
+            <Image Name="correct.png" />
             <Image Name="diffBtn.png" />
             <Image Name="diffComplete.png" />
             <Image Name="EasyButton.png" />
+            <Image Name="easyMode.png" />
             <Image Name="exit.png" />
             <Image Name="fairySpeech.png" />
             <Image Name="fairySpritesheet.png" />
@@ -35,9 +38,7 @@
             <Image Name="msgbox.png" />
             <Image Name="myspritesheet.png" />
             <File Name="myspritesheet.xml" />
-            <Image Name="scrollCom.png" />
-            <Image Name="silver.png" />
-            <Image Name="srcroll.png" />
+            <Image Name="scroll.png" />
             <Image Name="startgame background.png" />
             <File Name="tongue.xml" />
             <Image Name="white.png" />
@@ -48,19 +49,21 @@
             <Audio Name="swallowing.mp3" />
           </Folder>
         </Folder>
+        <Project Name="advancedModeComplete.csd" Type="Layer" />
+        <Project Name="difficultModeComplete.csd" Type="Layer" />
         <Project Name="difficultyLayer.csd" Type="Layer" />
         <Project Name="DifficultyScene.csd" Type="Scene" />
+        <Project Name="easyModeComplete.csd" Type="Layer" />
         <Project Name="firstLayer.csd" Type="Layer" />
-        <Image Name="HelloWorld.png" />
         <Project Name="homeBackgroundLayer.csd" Type="Layer" />
         <Project Name="homeButtonLayer.csd" Type="Layer" />
         <Project Name="layerBackgroundPlay.csd" Type="Layer" />
         <Project Name="layerInstruction.csd" Type="Layer" />
+        <Project Name="LevelLayer.csd" Type="Layer" />
         <Project Name="MainScene.csd" Type="Scene" />
         <Project Name="MenuLayer.csd" Type="Layer" />
         <Project Name="nodeOptions.csd" Type="Node" />
         <Project Name="PlayScene.csd" Type="Scene" />
-        <Project Name="Scene.csd" Type="Scene" />
       </RootFolder>
     </Group>
   </SolutionFolder>

@@ -32,7 +32,7 @@ var DifficultyLayer = cc.Layer.extend({
     	wood = difficultyLayer.getChildByName("wood");
     	btnEasy = wood.getChildByName("btnEasy");
     	btnDifficult = wood.getChildByName("btnDifficult");
-    	btnAdvanced = wood.getChildByName("btnDifficult");
+    	btnAdvanced = wood.getChildByName("btnAdvanced");
     	btnClose = wood.getChildByName("btnClose");
 
     	btnClose.addTouchEventListener(this.popScene,this);

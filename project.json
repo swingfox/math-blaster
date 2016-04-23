@@ -17,6 +17,8 @@
         "src/difficultyScene.js",
         "src/playScene.js",
         "src/instructionLayer.js",
-        "src/homeSprite.js"
+        "src/homeSprite.js",
+        "src/menuLayer.js",
+        "src/levelScene.js"
     ]
 }

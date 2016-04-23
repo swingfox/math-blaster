@@ -203,7 +203,7 @@
               "X": 46.0,
               "Y": 36.0
             },
-            "Alpha": 0,
+            "Alpha": 3,
             "Name": "btnPause",
             "ctype": "ButtonObjectData"
           },

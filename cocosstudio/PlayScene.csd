@@ -27,7 +27,7 @@
             <PreSize X="1.0000" Y="1.0000" />
             <FileData Type="Normal" Path="firstLayer.csd" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="optionsNode" CanEdit="False" ActionTag="-1264077960" Tag="338" IconVisible="True" LeftMargin="140.5388" RightMargin="819.4612" TopMargin="509.6610" BottomMargin="130.3390" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+          <AbstractNodeData Name="optionsNode" Visible="False" ActionTag="-1264077960" Tag="338" IconVisible="True" LeftMargin="140.5388" RightMargin="819.4612" TopMargin="509.6610" BottomMargin="130.3390" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
             <Position X="140.5388" Y="130.3390" />

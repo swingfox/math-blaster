@@ -1,0 +1,77 @@
+{
+  "ID": "791882e3-5799-4970-85e8-7d72ae5df78b",
+  "Version": "3.10.0.0",
+  "Name": "advancedModeComplete",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 181,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/advancedMode.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 495.5374,
+              "Y": 328.8559
+            },
+            "Scale": {
+              "ScaleX": 1.1661,
+              "ScaleY": 1.117
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5162,
+              "Y": 0.5138
+            },
+            "PreSize": {
+              "X": 0.4521,
+              "Y": 0.4812
+            },
+            "LeftMargin": 278.5374,
+            "RightMargin": 247.4626,
+            "TopMargin": 157.1441,
+            "BottomMargin": 174.8559,
+            "Tag": 182,
+            "ActionTag": 1778433120,
+            "Size": {
+              "X": 434.0,
+              "Y": 308.0
+            },
+            "Name": "advancedModeSprite",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "media/graphics/advancedMode.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

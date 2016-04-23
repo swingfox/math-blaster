@@ -1,0 +1,77 @@
+{
+  "ID": "96907273-ef66-4e1d-839c-a334a1ea2b1a",
+  "Version": "3.10.0.0",
+  "Name": "LevelLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 185,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/scroll.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 475.5699,
+              "Y": 377.7542
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4954,
+              "Y": 0.5902
+            },
+            "PreSize": {
+              "X": 0.4521,
+              "Y": 0.4812
+            },
+            "LeftMargin": 258.5699,
+            "RightMargin": 267.4301,
+            "TopMargin": 108.2458,
+            "BottomMargin": 223.7542,
+            "Tag": 186,
+            "ActionTag": -1253472026,
+            "Size": {
+              "X": 434.0,
+              "Y": 308.0
+            },
+            "Name": "scrollLayer",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "media/graphics/scroll.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
