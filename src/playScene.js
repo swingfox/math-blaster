@@ -23,7 +23,6 @@ var PlayScene = cc.Scene.extend({
         this.level = new LevelLayer("Level 1", "Answers will be " + "\n"  +" from " + range);
         this.addChild(this.playLayer);
         this.addChild(this.level,100);
-      //  this.scheduleUpdate();
         if(difficulty=="EASY"){
 
         }
@@ -38,14 +37,6 @@ var PlayScene = cc.Scene.extend({
         this.pause();
         this.scheduleOnce(this.removeLevelLayer,3);
     },
-    update:function(dt){
-        var tongue = this.playLayer.getFrogTongue();
-
-
-      //  tongue.clear();
-    //    tongue.setVisible(false);
-      //  tongue.drawSegment(cc.p(210,170), cc.p(answerSprite1.getPosition().x,answerSprite1.getPosition().y),2);
-    }, 
     playChangeColor:function(){
         this.schedule(this.changeColor,2);
     },
@@ -118,7 +109,8 @@ var PlayLayer = cc.Layer.extend({
             this.addChild(this.line[i]);
         }
         score = 0;
-
+        this.btnNext = firstLayer.getChildByName("lblPlayer");
+        this.btnNext.setString(cc.sys.localStorage.getItem("playerName"));
         this.playSong();
 	},
     getFrogAttackSprite:function(){
@@ -300,6 +292,9 @@ var PlayLayer = cc.Layer.extend({
         this.manageListeners();
     },
     goHome:function(){
+        if(cc.audioEngine.isMusicPlaying()){
+            this.stopSong();
+        }
         cc.director.popToRootScene();
     },
     showIfCorrect:function(){
@@ -359,7 +354,7 @@ var PlayLayer = cc.Layer.extend({
             txtComputation.setString(answer);
             frogAttackSprite.setVisible(true);
             for(var i = 0 ; i < 5; i++){
-                this.line[i].drawSegment(cc.p(210+(i+4),170), cc.p(answerSprite.getPosition().x+(i+4),answerSprite.getPosition().y),2);
+                this.line[i].drawSegment(cc.p(210+(i+4),170), cc.p(answerSprite.getPosition().x+(i+4),answerSprite.getPosition().y),5,cc.color(255,134,128));
                 this.line[i].setLocalZOrder(100);
                 this.line[i].setVisible(true);
             }
@@ -522,11 +517,11 @@ var PlayLayer = cc.Layer.extend({
             txtType.setString("Easy");
         }
         else if(difficulty=="ADVANCED"){
-            txtTarget.setString("21");
+            txtTarget.setString("30");
             txtType.setString("Advanced");
         }
         else if(difficulty=="DIFFICULT"){
-            txtTarget.setString("20");
+            txtTarget.setString("40");
             txtType.setString("Difficult"); 
         }
     },

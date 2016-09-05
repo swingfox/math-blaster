@@ -49,7 +49,7 @@ var HomeLayer = cc.Layer.extend({
                 target.setScale(1.0,1.0);
 
                 if(name=="btnPlay"){
-                        var difficulty = new DifficultyScene();
+                        var difficulty = new OperatorScene();
                         cc.director.pushScene(difficulty);
                 }
                 else if(name=="btnInstruction"){

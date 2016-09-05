@@ -19,6 +19,8 @@
         "src/instructionLayer.js",
         "src/homeSprite.js",
         "src/menuLayer.js",
-        "src/levelScene.js"
+        "src/levelScene.js",
+        "src/operatorsScene.js",
+        "src/playerNameScene.js"
     ]
 }

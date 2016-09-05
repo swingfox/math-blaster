@@ -17,7 +17,7 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "media/graphics/home.jpg",
+              "Path": "media/graphics/funny-frogs-1600x1200-30160.png",
               "Plist": ""
             },
             "BlendFunc": {
@@ -29,34 +29,34 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 481.4129,
-              "Y": 319.0303
+              "X": 480.0153,
+              "Y": 318.613
             },
             "Scale": {
-              "ScaleX": 1.2018,
-              "ScaleY": 1.0629
+              "ScaleX": 0.5995,
+              "ScaleY": 0.533
             },
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.5015,
-              "Y": 0.4985
+              "X": 0.5,
+              "Y": 0.4978
             },
             "PreSize": {
-              "X": 0.8333,
-              "Y": 0.9375
+              "X": 1.6667,
+              "Y": 1.875
             },
-            "LeftMargin": 81.4129,
-            "RightMargin": 78.5871,
-            "TopMargin": 20.9697,
-            "BottomMargin": 19.0303,
-            "Tag": 4,
-            "ActionTag": -1525897346,
+            "LeftMargin": -319.9847,
+            "RightMargin": -320.0154,
+            "TopMargin": -278.613,
+            "BottomMargin": -281.387,
+            "Tag": 82,
+            "ActionTag": -2067826044,
             "Size": {
-              "X": 800.0,
-              "Y": 600.0
+              "X": 1600.0,
+              "Y": 1200.0
             },
-            "Name": "spriteHome",
+            "Name": "sprite",
             "ctype": "SpriteObjectData"
           }
         ],
@@ -68,7 +68,7 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "media/graphics/home.jpg"
+        "media/graphics/funny-frogs-1600x1200-30160.png"
       ],
       "ctype": "GameFileData"
     }

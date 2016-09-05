@@ -31,7 +31,13 @@ var MenuLayer = cc.Layer.extend({
         btnPause.addTouchEventListener(this.pause,this);
         btnCancel.addTouchEventListener(this.cancelScene,this);
     },
+    stopSong:function(){
+        cc.audioEngine.stopMusic();
+    },
     homeScene:function(){
+        if(cc.audioEngine.isMusicPlaying()){
+            this.stopSong();
+        }
     	cc.director.popToRootScene();
     },
     pause:function () {
@@ -55,7 +61,7 @@ var MenuLayer = cc.Layer.extend({
             this._swallowTouches = false;
     },
     cancelScene:function(){
-        this.setVisible(false);
+        this.setVisible(false); 
     }
 });
 

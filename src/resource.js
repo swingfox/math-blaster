@@ -3,6 +3,10 @@ var res = {
     homeScene : "res/MainScene.json",
     homeBackgroundLayer : "res/homeBackgroundLayer.json",
     homeButtonLayer : "res/homeButtonLayer.json",
+    playerNameLayer : "res/playerNameLayer.json",
+    playerNameScene : "res/playerNameScene.json",
+    operationLayer : "res/operationLayer.json",
+    operationScene : "res/operationScene.json",
     difficultyScene : "res/DifficultyScene.json",
     difficultyLayer : "res/difficultyLayer.json",
     instructionLayer : "res/layerInstruction.json",
@@ -36,7 +40,7 @@ var res = {
     royalBlueSprite : "res/media/graphics/royalBlue.png",
     darkBlueSprite : "res/media/graphics/darkBlue.png",
     brownSprite : "res/media/graphics/brown.png",
-    correctSprite : "res/media/graphics/correct.png"
+    correctSprite : "res/media/graphics/correct.png",
 };
 
 var g_resources = [];

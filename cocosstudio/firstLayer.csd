@@ -122,15 +122,15 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtPlayer" CanEdit="False" ActionTag="367219825" Tag="71" IconVisible="False" LeftMargin="50.7306" RightMargin="787.2694" TopMargin="67.0422" BottomMargin="541.9578" FontSize="30" LabelText="Player" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-            <Size X="122.0000" Y="31.0000" />
+          <AbstractNodeData Name="lblPlayer" CanEdit="False" ActionTag="367219825" Tag="71" IconVisible="False" LeftMargin="68.9659" RightMargin="818.0341" TopMargin="54.1807" BottomMargin="544.8193" FontSize="36" LabelText="Rafael" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+            <Size X="73.0000" Y="41.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="111.7306" Y="557.4578" />
-            <Scale ScaleX="0.7854" ScaleY="0.8547" />
-            <CColor A="255" R="255" G="0" B="0" />
-            <PrePosition X="0.1164" Y="0.8710" />
-            <PreSize X="0.1271" Y="0.0484" />
-            <FontResource Type="Normal" Path="media/Fonts/ArticulaDisplaySSI.ttf" Plist="" />
+            <Position X="105.4659" Y="565.3193" />
+            <Scale ScaleX="1.5542" ScaleY="1.2203" />
+            <CColor A="255" R="255" G="255" B="0" />
+            <PrePosition X="0.1099" Y="0.8833" />
+            <PreSize X="0.0760" Y="0.0641" />
+            <FontResource Type="Normal" Path="media/Fonts/Deanna.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>

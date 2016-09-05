@@ -11,13 +11,16 @@
             <TTF Name="StrangeWorld.ttf" />
           </Folder>
           <Folder Name="graphics">
+            <Image Name="Add.png" />
             <Image Name="advanceBtn.png" />
             <Image Name="advancedMode.png" />
             <Image Name="back.png" />
+            <Image Name="button.png" />
             <Image Name="buttonOK.PNG" />
             <Image Name="correct.png" />
             <Image Name="diffBtn.png" />
             <Image Name="diffComplete.png" />
+            <Image Name="DIVISION.png" />
             <Image Name="EasyButton.png" />
             <Image Name="easyMode.png" />
             <Image Name="exit.png" />
@@ -25,6 +28,7 @@
             <Image Name="fairySpritesheet.png" />
             <File Name="fairySpritesheet.xml" />
             <Image Name="frogattack.png" />
+            <Image Name="funny-frogs-1600x1200-30160.png" />
             <Image Name="home.jpg" />
             <Image Name="homeIcon.PNG" />
             <Image Name="HomeInstructionBtn.png" />
@@ -36,10 +40,12 @@
             <Image Name="menu.png" />
             <Image Name="MrFroggy.png" />
             <Image Name="msgbox.png" />
+            <Image Name="mulitiply.png" />
             <Image Name="myspritesheet.png" />
             <File Name="myspritesheet.xml" />
             <Image Name="scroll.png" />
             <Image Name="startgame background.png" />
+            <Image Name="sub.png" />
             <File Name="tongue.xml" />
             <Image Name="white.png" />
             <Image Name="wood.png" />
@@ -63,6 +69,10 @@
         <Project Name="MainScene.csd" Type="Scene" />
         <Project Name="MenuLayer.csd" Type="Layer" />
         <Project Name="nodeOptions.csd" Type="Node" />
+        <Project Name="operationLayer.csd" Type="Layer" />
+        <Project Name="operationScene.csd" Type="Scene" />
+        <Project Name="playerNameLayer.csd" Type="Layer" />
+        <Project Name="playerNameScene.csd" Type="Scene" />
         <Project Name="PlayScene.csd" Type="Scene" />
       </RootFolder>
     </Group>

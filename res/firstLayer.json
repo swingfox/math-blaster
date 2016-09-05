@@ -489,11 +489,11 @@
             "ctype": "TextObjectData"
           },
           {
-            "FontSize": 30,
-            "LabelText": "Player",
+            "FontSize": 36,
+            "LabelText": "Rafael",
             "FontResource": {
               "Type": "Normal",
-              "Path": "media/Fonts/ArticulaDisplaySSI.ttf",
+              "Path": "media/Fonts/Deanna.ttf",
               "Plist": ""
             },
             "OutlineColor": {
@@ -512,37 +512,36 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 111.7306,
-              "Y": 557.4578
+              "X": 105.4659,
+              "Y": 565.3193
             },
             "Scale": {
-              "ScaleX": 0.7854,
-              "ScaleY": 0.8547
+              "ScaleX": 1.5542,
+              "ScaleY": 1.2203
             },
             "CColor": {
-              "G": 0,
               "B": 0
             },
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.1164,
-              "Y": 0.871
+              "X": 0.1099,
+              "Y": 0.8833
             },
             "PreSize": {
-              "X": 0.1271,
-              "Y": 0.0484
+              "X": 0.076,
+              "Y": 0.0641
             },
-            "LeftMargin": 50.7306,
-            "RightMargin": 787.2694,
-            "TopMargin": 67.0422,
-            "BottomMargin": 541.9578,
+            "LeftMargin": 68.9659,
+            "RightMargin": 818.0341,
+            "TopMargin": 54.1807,
+            "BottomMargin": 544.8193,
             "Tag": 71,
             "ActionTag": 367219825,
             "Size": {
-              "X": 122.0,
-              "Y": 31.0
+              "X": 73.0,
+              "Y": 41.0
             },
-            "Name": "txtPlayer",
+            "Name": "lblPlayer",
             "ctype": "TextObjectData"
           },
           {
@@ -1140,6 +1139,7 @@
       "UsedResources": [
         "layerBackgroundPlay.json",
         "media/Fonts/ArticulaDisplaySSI.ttf",
+        "media/Fonts/Deanna.ttf",
         "media/Fonts/Impact.ttf",
         "media/Fonts/StrangeWorld.ttf",
         "media/graphics/fairySpeech.png",

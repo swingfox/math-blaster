@@ -1,7 +1,7 @@
 {
-  "ID": "f1d6c596-0d2b-4bea-aa90-25bd3fb25aaa",
+  "ID": "60e36972-cf0f-4ee0-b92e-580b1a7c8217",
   "Version": "3.10.0.0",
-  "Name": "DifficultyScene",
+  "Name": "playerNameScene",
   "Content": {
     "Content": {
       "Animation": {
@@ -12,7 +12,7 @@
       },
       "AnimationList": [],
       "ObjectData": {
-        "Tag": 16,
+        "Tag": 32,
         "Children": [
           {
             "FileData": {
@@ -46,8 +46,8 @@
             "RightMargin": -0.9841,
             "TopMargin": 1.5667,
             "BottomMargin": -1.5667,
-            "Tag": 136,
-            "ActionTag": -1001325366,
+            "Tag": 45,
+            "ActionTag": -1135116000,
             "Size": {
               "X": 960.0,
               "Y": 640.0
@@ -58,7 +58,7 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "difficultyLayer.json",
+              "Path": "playerNameLayer.json",
               "Plist": ""
             },
             "StretchWidthEnable": false,
@@ -66,8 +66,8 @@
             "InnerActionSpeed": 1.0,
             "AnchorPoint": {},
             "Position": {
-              "X": 2.1757,
-              "Y": 0.0
+              "X": 5.2733,
+              "Y": 5.2736
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -76,22 +76,24 @@
             "CColor": {},
             "IconVisible": true,
             "PrePosition": {
-              "X": 0.0023,
-              "Y": 0.0
+              "X": 0.0055,
+              "Y": 0.0082
             },
             "PreSize": {
               "X": 1.0,
               "Y": 1.0
             },
-            "LeftMargin": 2.1757,
-            "RightMargin": -2.1757,
-            "Tag": 70,
-            "ActionTag": 216354442,
+            "LeftMargin": 5.2733,
+            "RightMargin": -5.2733,
+            "TopMargin": -5.2736,
+            "BottomMargin": 5.2736,
+            "Tag": 65,
+            "ActionTag": -2133599052,
             "Size": {
               "X": 960.0,
               "Y": 640.0
             },
-            "Name": "difficultyLayer",
+            "Name": "playerNameLayer",
             "ctype": "ProjectNodeObjectData"
           }
         ],
@@ -103,8 +105,8 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
-        "difficultyLayer.json",
-        "homeBackgroundLayer.json"
+        "homeBackgroundLayer.json",
+        "playerNameLayer.json"
       ],
       "ctype": "GameFileData"
     }

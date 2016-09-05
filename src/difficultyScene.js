@@ -44,7 +44,7 @@ var DifficultyLayer = cc.Layer.extend({
     	cc.director.popScene();
     },
     easyButton:function(touch,event){
-    	cc.director.pushScene(new PlayScene("EASY"));
+    	cc.director.pushScene(new PlayerNameScene());
     },
     difficultButton:function(touch,event){
         cc.director.pushScene(new PlayScene("DIFFICULT"));

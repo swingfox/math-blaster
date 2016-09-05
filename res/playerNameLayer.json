@@ -1,0 +1,212 @@
+{
+  "ID": "13c8ce99-c093-47dd-a009-c8468fc6dc90",
+  "Version": "3.10.0.0",
+  "Name": "playerNameLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 50,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/scroll.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 469.0614,
+              "Y": 311.4606
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4886,
+              "Y": 0.4867
+            },
+            "PreSize": {
+              "X": 0.4521,
+              "Y": 0.4812
+            },
+            "LeftMargin": 252.0614,
+            "RightMargin": 273.9386,
+            "TopMargin": 174.5394,
+            "BottomMargin": 157.4606,
+            "Tag": 53,
+            "ActionTag": 305726887,
+            "Size": {
+              "X": 434.0,
+              "Y": 308.0
+            },
+            "Name": "scroll_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 48,
+            "LabelText": "Player Name:",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/Deanna.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 473.6267,
+              "Y": 396.5454
+            },
+            "Scale": {
+              "ScaleX": 1.1756,
+              "ScaleY": 1.1515
+            },
+            "CColor": {
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4934,
+              "Y": 0.6196
+            },
+            "PreSize": {
+              "X": 0.1979,
+              "Y": 0.0859
+            },
+            "LeftMargin": 378.6267,
+            "RightMargin": 391.3733,
+            "TopMargin": 215.9546,
+            "BottomMargin": 369.0454,
+            "Tag": 55,
+            "ActionTag": 1583985674,
+            "Size": {
+              "X": 190.0,
+              "Y": 55.0
+            },
+            "Name": "lblPlayer",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 72,
+            "ButtonText": "NEXT",
+            "TextColor": {
+              "R": 230,
+              "G": 230,
+              "B": 250
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 400,
+            "Scale9Height": 83,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 469.6517,
+              "Y": 110.1885
+            },
+            "Scale": {
+              "ScaleX": 0.6243,
+              "ScaleY": 0.6732
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4892,
+              "Y": 0.1722
+            },
+            "PreSize": {
+              "X": 0.4479,
+              "Y": 0.1641
+            },
+            "LeftMargin": 254.6517,
+            "RightMargin": 275.3483,
+            "TopMargin": 477.3115,
+            "BottomMargin": 57.6885,
+            "Tag": 90,
+            "ActionTag": -837144682,
+            "Size": {
+              "X": 430.0,
+              "Y": 105.0
+            },
+            "Name": "btnNext",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "media/Fonts/Deanna.ttf",
+        "media/graphics/button.png",
+        "media/graphics/scroll.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

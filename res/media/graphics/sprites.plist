@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fairy1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{110,125}}</string>
+				<key>offset</key>
+				<string>{0,340}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{2,3},{230,893}}</string>
+				<key>sourceSize</key>
+				<string>{256,1024}</string>
+			</dict>
+			
+			<key>fairy2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{110,0},{110,125}}</string>
+				<key>offset</key>
+				<string>{0,340}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{2,3},{230,893}}</string>
+				<key>sourceSize</key>
+				<string>{256,1024}</string>
+			</dict>
+
+		<!--	<key>fairy3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{100,125}}</string>
+				<key>offset</key>
+				<string>{0,340}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{2,3},{230,893}}</string>
+				<key>sourceSize</key>
+				<string>{256,1024}</string>
+			</dict>
+			<key>fairy4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{100,125}}</string>
+				<key>offset</key>
+				<string>{0,340}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{2,3},{230,893}}</string>
+				<key>sourceSize</key>
+				<string>{256,1024}</string>
+			</dict>
+			<key>fairy5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{100,125}}</string>
+				<key>offset</key>
+				<string>{0,340}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{2,3},{230,893}}</string>
+				<key>sourceSize</key>
+				<string>{256,1024}</string>
+			</dict>
+
+			<key>fairy6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{230,893}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{2,3},{230,893}}</string>
+				<key>sourceSize</key>
+				<string>{256,1024}</string>
+			</dict>
+
+			<key>fairySpritesheet.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{230,893}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{2,3},{230,893}}</string>
+				<key>sourceSize</key>
+				<string>{256,1024}</string>
+			</dict>
+-->
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{256,1024}</string>
+			<key>textureFileName</key>
+			<string>sprites.png</string>
+			</dict>
+		</dict>
+</plist>
