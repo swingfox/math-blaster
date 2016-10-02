@@ -3,6 +3,8 @@ var res = {
     homeScene : "res/MainScene.json",
     homeBackgroundLayer : "res/homeBackgroundLayer.json",
     homeButtonLayer : "res/homeButtonLayer.json",
+    scoreboardLayer : "res/ScoreboardLayer.json",
+    scoreboardScene : "res/ScoreboardScene.json",
     playerNameLayer : "res/playerNameLayer.json",
     playerNameScene : "res/playerNameScene.json",
     operationLayer : "res/operationLayer.json",

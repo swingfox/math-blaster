@@ -15,7 +15,7 @@ var OperatorLayer = cc.Layer.extend({
     init:function(){
     	this.operationLayer = ccs.load(res.operationLayer).node;
         this.operationScene =  ccs.load(res.operationScene).node;
-        this.initializeButtonScene();
+        this.initializeTouchListener();
       	this.addChild(this.operationScene,20);
        	this.addChild(this.operationLayer,51);
 
@@ -34,20 +34,11 @@ var OperatorLayer = cc.Layer.extend({
         this.btnMultiplication.setLocalZOrder(51);
 
         this.btnDivision.setLocalZOrder(51);
+        this.btnClose.addTouchEventListener(this.popScene,this);
 
-
-        cc.log("btnAddition: " + this.btnAddition);
-        this.btnAddition.addTouchEventListener(this.nextScene,this);
-        this.btnSubtraction.addTouchEventListener(this.nextScene,this);
-
-        this.btnMultiplication.addTouchEventListener(this.nextScene,this);
-
-        this.btnDivision.addTouchEventListener(this.nextScene,this);
-        
 
     },    
     initializeTouchListener:function(){   
-        cc.log("initializeTouchListener: ");
 
         this.initializeButtonScene(); 
         var main = this;   
@@ -62,7 +53,7 @@ var OperatorLayer = cc.Layer.extend({
                 var rect = cc.rect(0, 0, s.width, s.height);
                 var name = target.getName();
                 if (cc.rectContainsPoint(rect, locationInNode)) {       
-                    target.setScale(0.8,0.8);
+                    target.setScale(0.4,0.4);
                     return true;
                 }
                 return false;
@@ -71,15 +62,22 @@ var OperatorLayer = cc.Layer.extend({
                 var target = event.getCurrentTarget();
                 var name = target.getName();
 
-                target.setScale(1.0,1.0);
+                target.setScale(0.5,0.5);
 
-                if(name=="btnAddition"){
-                     //   var difficulty = new OperatorScene();
-                     //   cc.director.pushScene(difficulty);
+                if(name=="btnClose"){
+                    main.popScene();
                 }
-                else if(name=="btnInstruction"){
-                     //   var instruction = new InstructionScene();
-                     //   cc.director.pushScene(instruction);
+                else if(name=="btnAddition"){
+                    main.addition();
+                }
+                else if(name=="btnSubtraction"){
+                    main.subtraction();
+                }
+                else if(name=="btnMultiplication"){
+                    main.multiplication();
+                }
+                else if(name=="btnDivision"){
+                    main.division();
                 }
                 cc.log("TOUCH ENDED");	
             }
@@ -88,14 +86,34 @@ var OperatorLayer = cc.Layer.extend({
 
         //this.btnAddition.addTouchEventListener(this.popScene,this);
     },
+    addition:function(){
+        cc.sys.localStorage.setItem("operation","addition");
+        cc.director.pushScene(new cc.TransitionFade(0.5,new DifficultyScene()));
+    },
+    subtraction:function(){
+        cc.sys.localStorage.setItem("operation","subtraction");
+        cc.director.pushScene(new cc.TransitionFade(0.5,new DifficultyScene()));
+    },
+    multiplication:function(){
+        cc.sys.localStorage.setItem("operation","multiplication");
+        cc.director.pushScene(new cc.TransitionFade(0.5,new DifficultyScene()));
+    },
+    division:function(){
+        cc.sys.localStorage.setItem("operation","division");
+        cc.director.pushScene(new cc.TransitionFade(0.5,new DifficultyScene()));
+    },
     nextScene:function(){
-    	cc.log("NAKASUD");
-        cc.director.pushScene(new DifficultyScene());
+        cc.sys.localStorage.setItem("operation","");
+        cc.director.pushScene(new cc.TransitionFade(0.5,new DifficultyScene()));
+    },
+    popScene:function(){
+        cc.log("operation popScene");
+        cc.director.popScene();
     },
     manageAllListeners:function(){  
         cc.log("btnAddition Listener: " + this.btnAddition);
 
-       cc.eventManager.addListener(this.touchListeners.clone(),this.btnClose);
+//       cc.eventManager.addListener(this.touchListeners.clone(),this.btnClose);
        cc.eventManager.addListener(this.touchListeners.clone(),this.btnAddition);
 
        cc.eventManager.addListener(this.touchListeners.clone(),this.btnSubtraction);

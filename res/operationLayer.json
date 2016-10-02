@@ -128,304 +128,184 @@
                 "ctype": "ButtonObjectData"
               },
               {
-                "FontSize": 14,
-                "ButtonText": "",
-                "TextColor": {
-                  "R": 65,
-                  "G": 65,
-                  "B": 70
-                },
-                "DisabledFileData": {
-                  "Type": "Default",
-                  "Path": "Default/Button_Disable.png",
-                  "Plist": ""
-                },
-                "PressedFileData": {
-                  "Type": "Default",
-                  "Path": "Default/Button_Press.png",
-                  "Plist": ""
-                },
-                "NormalFileData": {
+                "FileData": {
                   "Type": "Normal",
-                  "Path": "media/graphics/Add.png",
+                  "Path": "media/operations/Subtraction.png",
                   "Plist": ""
                 },
-                "Scale9Enable": true,
-                "Scale9OriginX": 15,
-                "Scale9OriginY": 11,
-                "Scale9Width": 400,
-                "Scale9Height": 83,
-                "OutlineColor": {
-                  "G": 0,
-                  "B": 0
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
-                "ShadowColor": {
-                  "R": 110,
-                  "G": 110,
-                  "B": 110
-                },
-                "ShadowOffsetX": 2.0,
-                "ShadowOffsetY": -2.0,
-                "TouchEnable": true,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 207.3516,
-                  "Y": 254.0901
+                  "X": 215.2896,
+                  "Y": 201.4817
                 },
                 "Scale": {
-                  "ScaleX": 0.4835,
-                  "ScaleY": 0.4713
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PrePosition": {
-                  "X": 0.5145,
-                  "Y": 0.6336
-                },
-                "PreSize": {
-                  "X": 1.067,
-                  "Y": 0.2618
-                },
-                "LeftMargin": -7.6484,
-                "RightMargin": -19.3516,
-                "TopMargin": 94.4099,
-                "BottomMargin": 201.5901,
-                "Tag": 64,
-                "ActionTag": -1540542137,
-                "Size": {
-                  "X": 430.0,
-                  "Y": 105.0
-                },
-                "Name": "btnAddition",
-                "ctype": "ButtonObjectData"
-              },
-              {
-                "FontSize": 14,
-                "ButtonText": "",
-                "TextColor": {
-                  "R": 65,
-                  "G": 65,
-                  "B": 70
-                },
-                "DisabledFileData": {
-                  "Type": "Default",
-                  "Path": "Default/Button_Disable.png",
-                  "Plist": ""
-                },
-                "PressedFileData": {
-                  "Type": "Default",
-                  "Path": "Default/Button_Press.png",
-                  "Plist": ""
-                },
-                "NormalFileData": {
-                  "Type": "Normal",
-                  "Path": "media/graphics/sub.png",
-                  "Plist": ""
-                },
-                "Scale9Enable": true,
-                "Scale9OriginX": 15,
-                "Scale9OriginY": 11,
-                "Scale9Width": 400,
-                "Scale9Height": 83,
-                "OutlineColor": {
-                  "G": 0,
-                  "B": 0
-                },
-                "ShadowColor": {
-                  "R": 110,
-                  "G": 110,
-                  "B": 110
-                },
-                "ShadowOffsetX": 2.0,
-                "ShadowOffsetY": -2.0,
-                "TouchEnable": true,
-                "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
-                "Position": {
-                  "X": 207.7768,
-                  "Y": 192.3333
-                },
-                "Scale": {
-                  "ScaleX": 0.4811,
-                  "ScaleY": 0.465
-                },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.5156,
-                  "Y": 0.4796
+                  "X": 0.5342,
+                  "Y": 0.5024
                 },
                 "PreSize": {
                   "X": 1.067,
                   "Y": 0.2618
                 },
-                "LeftMargin": -7.2232,
-                "RightMargin": -19.7768,
-                "TopMargin": 156.1667,
-                "BottomMargin": 139.8333,
-                "Tag": 65,
-                "ActionTag": 919295262,
+                "LeftMargin": 0.2896,
+                "RightMargin": -27.2896,
+                "TopMargin": 147.0183,
+                "BottomMargin": 148.9817,
+                "Tag": 124,
+                "ActionTag": 106417863,
                 "Size": {
                   "X": 430.0,
                   "Y": 105.0
                 },
                 "Name": "btnSubtraction",
-                "ctype": "ButtonObjectData"
+                "ctype": "SpriteObjectData"
               },
               {
-                "FontSize": 14,
-                "ButtonText": "",
-                "TextColor": {
-                  "R": 65,
-                  "G": 65,
-                  "B": 70
-                },
-                "DisabledFileData": {
-                  "Type": "Default",
-                  "Path": "Default/Button_Disable.png",
-                  "Plist": ""
-                },
-                "PressedFileData": {
-                  "Type": "Default",
-                  "Path": "Default/Button_Press.png",
-                  "Plist": ""
-                },
-                "NormalFileData": {
+                "FileData": {
                   "Type": "Normal",
-                  "Path": "media/graphics/mulitiply.png",
+                  "Path": "media/operations/addition.png",
                   "Plist": ""
                 },
-                "Scale9Enable": true,
-                "Scale9OriginX": 15,
-                "Scale9OriginY": 11,
-                "Scale9Width": 400,
-                "Scale9Height": 83,
-                "OutlineColor": {
-                  "G": 0,
-                  "B": 0
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
-                "ShadowColor": {
-                  "R": 110,
-                  "G": 110,
-                  "B": 110
-                },
-                "ShadowOffsetX": 2.0,
-                "ShadowOffsetY": -2.0,
-                "TouchEnable": true,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 208.2223,
-                  "Y": 127.1541
+                  "X": 216.4009,
+                  "Y": 264.9651
                 },
                 "Scale": {
-                  "ScaleX": 0.4812,
-                  "ScaleY": 0.471
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.5167,
-                  "Y": 0.3171
+                  "X": 0.537,
+                  "Y": 0.6608
                 },
                 "PreSize": {
                   "X": 1.067,
                   "Y": 0.2618
                 },
-                "LeftMargin": -6.7777,
-                "RightMargin": -20.2223,
-                "TopMargin": 221.3459,
-                "BottomMargin": 74.6541,
-                "Tag": 66,
-                "ActionTag": -1166823270,
+                "LeftMargin": 1.4009,
+                "RightMargin": -28.4009,
+                "TopMargin": 83.5349,
+                "BottomMargin": 212.4651,
+                "Tag": 123,
+                "ActionTag": -376073389,
+                "Size": {
+                  "X": 430.0,
+                  "Y": 105.0
+                },
+                "Name": "btnAddition",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "media/operations/multiplication.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 214.8358,
+                  "Y": 132.4825
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5331,
+                  "Y": 0.3304
+                },
+                "PreSize": {
+                  "X": 1.067,
+                  "Y": 0.2618
+                },
+                "LeftMargin": -0.1642,
+                "RightMargin": -26.8358,
+                "TopMargin": 216.0175,
+                "BottomMargin": 79.9825,
+                "Tag": 125,
+                "ActionTag": -1647807088,
                 "Size": {
                   "X": 430.0,
                   "Y": 105.0
                 },
                 "Name": "btnMultiplication",
-                "ctype": "ButtonObjectData"
+                "ctype": "SpriteObjectData"
               },
               {
-                "FontSize": 14,
-                "ButtonText": "",
-                "TextColor": {
-                  "R": 65,
-                  "G": 65,
-                  "B": 70
-                },
-                "DisabledFileData": {
-                  "Type": "Default",
-                  "Path": "Default/Button_Disable.png",
-                  "Plist": ""
-                },
-                "PressedFileData": {
-                  "Type": "Default",
-                  "Path": "Default/Button_Press.png",
-                  "Plist": ""
-                },
-                "NormalFileData": {
+                "FileData": {
                   "Type": "Normal",
-                  "Path": "media/graphics/DIVISION.png",
+                  "Path": "media/operations/DIVISION.png",
                   "Plist": ""
                 },
-                "Scale9Enable": true,
-                "Scale9OriginX": 15,
-                "Scale9OriginY": 11,
-                "Scale9Width": 400,
-                "Scale9Height": 83,
-                "OutlineColor": {
-                  "G": 0,
-                  "B": 0
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
                 },
-                "ShadowColor": {
-                  "R": 110,
-                  "G": 110,
-                  "B": 110
-                },
-                "ShadowOffsetX": 2.0,
-                "ShadowOffsetY": -2.0,
-                "TouchEnable": true,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 208.0186,
-                  "Y": 63.7657
+                  "X": 214.831,
+                  "Y": 61.4993
                 },
                 "Scale": {
-                  "ScaleX": 0.4812,
-                  "ScaleY": 0.4612
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.5162,
-                  "Y": 0.159
+                  "X": 0.5331,
+                  "Y": 0.1534
                 },
                 "PreSize": {
                   "X": 1.067,
                   "Y": 0.2618
                 },
-                "LeftMargin": -6.9814,
-                "RightMargin": -20.0186,
-                "TopMargin": 284.7343,
-                "BottomMargin": 11.2657,
-                "Tag": 67,
-                "ActionTag": -50868348,
+                "LeftMargin": -0.169,
+                "RightMargin": -26.8311,
+                "TopMargin": 287.0007,
+                "BottomMargin": 8.9993,
+                "Tag": 126,
+                "ActionTag": 1450496032,
                 "Size": {
                   "X": 430.0,
                   "Y": 105.0
                 },
                 "Name": "btnDivision",
-                "ctype": "ButtonObjectData"
+                "ctype": "SpriteObjectData"
               }
             ],
             "ActionTag": -195412896,
@@ -448,12 +328,12 @@
       "UsedResources": [
         "Default/Button_Disable.png",
         "Default/Button_Press.png",
-        "media/graphics/Add.png",
-        "media/graphics/DIVISION.png",
         "media/graphics/exit.png",
-        "media/graphics/mulitiply.png",
-        "media/graphics/sub.png",
-        "media/graphics/wood.png"
+        "media/graphics/wood.png",
+        "media/operations/addition.png",
+        "media/operations/DIVISION.png",
+        "media/operations/multiplication.png",
+        "media/operations/Subtraction.png"
       ],
       "ctype": "GameFileData"
     }

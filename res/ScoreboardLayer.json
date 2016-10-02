@@ -1,0 +1,1104 @@
+{
+  "ID": "68bcfc0b-33cb-4aaf-828b-1d872e7eda52",
+  "Version": "3.10.0.0",
+  "Name": "ScoreboardLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 5,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/graphics/funny-frogs-1600x1200-30160.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.4804,
+              "Y": 319.897
+            },
+            "Scale": {
+              "ScaleX": 0.6002,
+              "ScaleY": 0.5301
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5005,
+              "Y": 0.4998
+            },
+            "PreSize": {
+              "X": 1.6667,
+              "Y": 1.875
+            },
+            "LeftMargin": -319.5196,
+            "RightMargin": -320.4805,
+            "TopMargin": -279.897,
+            "BottomMargin": -280.103,
+            "Tag": 6,
+            "ActionTag": 834328357,
+            "Size": {
+              "X": 1600.0,
+              "Y": 1200.0
+            },
+            "Name": "background",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/scoreboard/difficultyScroll.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 166.1555,
+              "Y": 571.11
+            },
+            "Scale": {
+              "ScaleX": 0.4562,
+              "ScaleY": 0.6182
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1731,
+              "Y": 0.8924
+            },
+            "PreSize": {
+              "X": 0.6417,
+              "Y": 0.2188
+            },
+            "LeftMargin": -141.8445,
+            "RightMargin": 485.8445,
+            "TopMargin": -1.11,
+            "BottomMargin": 501.11,
+            "Tag": 8,
+            "ActionTag": 1521969403,
+            "Size": {
+              "X": 616.0,
+              "Y": 140.0
+            },
+            "Name": "difficultyScroll_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/scoreboard/scoreboardScroll.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 633.6005,
+              "Y": 309.1035
+            },
+            "Scale": {
+              "ScaleX": 0.9272,
+              "ScaleY": 0.8825
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.66,
+              "Y": 0.483
+            },
+            "PreSize": {
+              "X": 0.8135,
+              "Y": 1.1922
+            },
+            "LeftMargin": 243.1005,
+            "RightMargin": -64.1005,
+            "TopMargin": -50.6035,
+            "BottomMargin": -72.3965,
+            "Tag": 9,
+            "ActionTag": 1199751432,
+            "Size": {
+              "X": 781.0,
+              "Y": 763.0
+            },
+            "Name": "scoreboardScroll_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Difficulties",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 165.4976,
+              "Y": 570.8458
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1724,
+              "Y": 0.8919
+            },
+            "PreSize": {
+              "X": 0.2021,
+              "Y": 0.0625
+            },
+            "LeftMargin": 68.4976,
+            "RightMargin": 697.5024,
+            "TopMargin": 49.1542,
+            "BottomMargin": 550.8458,
+            "Tag": 10,
+            "ActionTag": -1363670634,
+            "Size": {
+              "X": 194.0,
+              "Y": 40.0
+            },
+            "Name": "txtDifficulties",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Player",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 450.7741,
+              "Y": 485.4023
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4696,
+              "Y": 0.7584
+            },
+            "PreSize": {
+              "X": 0.1219,
+              "Y": 0.0625
+            },
+            "LeftMargin": 392.2741,
+            "RightMargin": 450.7259,
+            "TopMargin": 134.5977,
+            "BottomMargin": 465.4023,
+            "Tag": 11,
+            "ActionTag": -1388400221,
+            "Size": {
+              "X": 117.0,
+              "Y": 40.0
+            },
+            "Name": "txtPlayer",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Score",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 636.8237,
+              "Y": 489.1017
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6634,
+              "Y": 0.7642
+            },
+            "PreSize": {
+              "X": 0.1094,
+              "Y": 0.0625
+            },
+            "LeftMargin": 584.3237,
+            "RightMargin": 270.6763,
+            "TopMargin": 130.8983,
+            "BottomMargin": 469.1017,
+            "Tag": 12,
+            "ActionTag": -218800861,
+            "Size": {
+              "X": 105.0,
+              "Y": 40.0
+            },
+            "Name": "txtScore",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Operation",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 825.173,
+              "Y": 492.267
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8596,
+              "Y": 0.7692
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.0625
+            },
+            "LeftMargin": 735.173,
+            "RightMargin": 44.827,
+            "TopMargin": 127.733,
+            "BottomMargin": 472.267,
+            "Tag": 13,
+            "ActionTag": -507383219,
+            "Size": {
+              "X": 180.0,
+              "Y": 40.0
+            },
+            "Name": "txtOperation",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/scoreboard/easy.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 163.2149,
+              "Y": 407.482
+            },
+            "Scale": {
+              "ScaleX": 0.55,
+              "ScaleY": 0.55
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.17,
+              "Y": 0.6367
+            },
+            "PreSize": {
+              "X": 0.4323,
+              "Y": 0.1578
+            },
+            "LeftMargin": -44.2851,
+            "RightMargin": 589.2851,
+            "TopMargin": 182.018,
+            "BottomMargin": 356.982,
+            "Tag": 9,
+            "ActionTag": -366865620,
+            "Size": {
+              "X": 415.0,
+              "Y": 101.0
+            },
+            "Name": "btnEasy",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/scoreboard/normal.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 164.2254,
+              "Y": 326.8349
+            },
+            "Scale": {
+              "ScaleX": 0.55,
+              "ScaleY": 0.55
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1711,
+              "Y": 0.5107
+            },
+            "PreSize": {
+              "X": 0.4323,
+              "Y": 0.1578
+            },
+            "LeftMargin": -43.2746,
+            "RightMargin": 588.2746,
+            "TopMargin": 262.6651,
+            "BottomMargin": 276.3349,
+            "Tag": 10,
+            "ActionTag": 1199453381,
+            "Size": {
+              "X": 415.0,
+              "Y": 101.0
+            },
+            "Name": "btnNormal",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/scoreboard/advance.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 163.98,
+              "Y": 242.3234
+            },
+            "Scale": {
+              "ScaleX": 0.55,
+              "ScaleY": 0.55
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1708,
+              "Y": 0.3786
+            },
+            "PreSize": {
+              "X": 0.4323,
+              "Y": 0.1578
+            },
+            "LeftMargin": -43.52,
+            "RightMargin": 588.52,
+            "TopMargin": 347.1766,
+            "BottomMargin": 191.8234,
+            "Tag": 11,
+            "ActionTag": 1467154757,
+            "Size": {
+              "X": 415.0,
+              "Y": 101.0
+            },
+            "Name": "btnAdvance",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "media/scoreboard/bac.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 164.0031,
+              "Y": 158.9361
+            },
+            "Scale": {
+              "ScaleX": 0.55,
+              "ScaleY": 0.55
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1708,
+              "Y": 0.2483
+            },
+            "PreSize": {
+              "X": 0.4323,
+              "Y": 0.1578
+            },
+            "LeftMargin": -43.4969,
+            "RightMargin": 588.4969,
+            "TopMargin": 430.5639,
+            "BottomMargin": 108.4361,
+            "Tag": 12,
+            "ActionTag": -855066329,
+            "Size": {
+              "X": 415.0,
+              "Y": 101.0
+            },
+            "Name": "btnBack",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Player 1",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 465.4928,
+              "Y": 382.1968
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4849,
+              "Y": 0.5972
+            },
+            "PreSize": {
+              "X": 0.1448,
+              "Y": 0.0625
+            },
+            "LeftMargin": 395.9928,
+            "RightMargin": 425.0072,
+            "TopMargin": 237.8032,
+            "BottomMargin": 362.1968,
+            "Tag": 29,
+            "ActionTag": 1053503942,
+            "Size": {
+              "X": 139.0,
+              "Y": 40.0
+            },
+            "Name": "txtPlayerOne",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Score 1",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 651.5557,
+              "Y": 385.4531
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6787,
+              "Y": 0.6023
+            },
+            "PreSize": {
+              "X": 0.1312,
+              "Y": 0.0625
+            },
+            "LeftMargin": 588.5557,
+            "RightMargin": 245.4443,
+            "TopMargin": 234.5469,
+            "BottomMargin": 365.4531,
+            "Tag": 30,
+            "ActionTag": -1960347491,
+            "Size": {
+              "X": 126.0,
+              "Y": 40.0
+            },
+            "Name": "txtScoreOne",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Operation 1       ",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 855.0009,
+              "Y": 388.2144
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8906,
+              "Y": 0.6066
+            },
+            "PreSize": {
+              "X": 0.2885,
+              "Y": 0.0625
+            },
+            "LeftMargin": 716.5009,
+            "RightMargin": -33.5009,
+            "TopMargin": 231.7856,
+            "BottomMargin": 368.2144,
+            "Tag": 31,
+            "ActionTag": 1841420955,
+            "Size": {
+              "X": 277.0,
+              "Y": 40.0
+            },
+            "Name": "txtOperationOne",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Player 2",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 466.886,
+              "Y": 282.8524
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4863,
+              "Y": 0.442
+            },
+            "PreSize": {
+              "X": 0.1562,
+              "Y": 0.0625
+            },
+            "LeftMargin": 391.886,
+            "RightMargin": 418.114,
+            "TopMargin": 337.1476,
+            "BottomMargin": 262.8524,
+            "Tag": 32,
+            "ActionTag": -141781918,
+            "Size": {
+              "X": 150.0,
+              "Y": 40.0
+            },
+            "Name": "txtPlayerTwo",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Score 2",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 650.9442,
+              "Y": 286.1087
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6781,
+              "Y": 0.447
+            },
+            "PreSize": {
+              "X": 0.1427,
+              "Y": 0.0625
+            },
+            "LeftMargin": 582.4442,
+            "RightMargin": 240.5558,
+            "TopMargin": 333.8913,
+            "BottomMargin": 266.1087,
+            "Tag": 33,
+            "ActionTag": -1712032953,
+            "Size": {
+              "X": 137.0,
+              "Y": 40.0
+            },
+            "Name": "txtScoreTwo",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Player 3",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 465.5324,
+              "Y": 187.7635
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4849,
+              "Y": 0.2934
+            },
+            "PreSize": {
+              "X": 0.1573,
+              "Y": 0.0625
+            },
+            "LeftMargin": 390.0324,
+            "RightMargin": 418.9676,
+            "TopMargin": 432.2365,
+            "BottomMargin": 167.7635,
+            "Tag": 35,
+            "ActionTag": 1794427087,
+            "Size": {
+              "X": 151.0,
+              "Y": 40.0
+            },
+            "Name": "txtPlayerThree",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Score 3",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 649.5873,
+              "Y": 191.0199
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6767,
+              "Y": 0.2985
+            },
+            "PreSize": {
+              "X": 0.1437,
+              "Y": 0.0625
+            },
+            "LeftMargin": 580.5873,
+            "RightMargin": 241.4127,
+            "TopMargin": 428.9801,
+            "BottomMargin": 171.0199,
+            "Tag": 36,
+            "ActionTag": 1991267150,
+            "Size": {
+              "X": 138.0,
+              "Y": 40.0
+            },
+            "Name": "txtScoreThree",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Operation 2    ",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 845.0,
+              "Y": 288.215
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8802,
+              "Y": 0.4503
+            },
+            "PreSize": {
+              "X": 0.2594,
+              "Y": 0.0625
+            },
+            "LeftMargin": 720.5,
+            "RightMargin": -9.5,
+            "TopMargin": 331.785,
+            "BottomMargin": 268.215,
+            "Tag": 22,
+            "ActionTag": 357577720,
+            "Size": {
+              "X": 249.0,
+              "Y": 40.0
+            },
+            "Name": "txtOperationTwo",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Operation 3    ",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "media/Fonts/DK Cool Crayon.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 845.0,
+              "Y": 194.2153
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8802,
+              "Y": 0.3035
+            },
+            "PreSize": {
+              "X": 0.2615,
+              "Y": 0.0625
+            },
+            "LeftMargin": 719.5,
+            "RightMargin": -10.5,
+            "TopMargin": 425.7847,
+            "BottomMargin": 174.2153,
+            "Tag": 23,
+            "ActionTag": 311096538,
+            "Size": {
+              "X": 251.0,
+              "Y": 40.0
+            },
+            "Name": "txtOperationThree",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "media/Fonts/DK Cool Crayon.ttf",
+        "media/graphics/funny-frogs-1600x1200-30160.png",
+        "media/scoreboard/advance.png",
+        "media/scoreboard/bac.png",
+        "media/scoreboard/difficultyScroll.png",
+        "media/scoreboard/easy.png",
+        "media/scoreboard/normal.png",
+        "media/scoreboard/scoreboardScroll.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

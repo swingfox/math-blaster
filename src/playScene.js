@@ -297,6 +297,78 @@ var PlayLayer = cc.Layer.extend({
         }
         cc.director.popToRootScene();
     },
+
+    recordPlayerInfo:function(name,score,operation){
+        var storage = cc.sys.localStorage;
+        var textScore = score+"";
+        if(this.levelOfDifficulty=="EASY"){
+            if(storage.getItem("easyTxtPlayerOne")==null || storage.getItem("easyTxtPlayerOne")=="")
+                storage.setItem("easyTxtPlayerOne",name);
+            else if(storage.getItem("easyTxtPlayerTwo")==null || storage.getItem("easyTxtPlayerTwo")=="")
+                storage.setItem("easyTxtPlayerTwo",name);
+            else if(storage.getItem("easyTxtPlayerThree")==null || storage.getItem("easyTxtPlayerThree")=="")
+                storage.setItem("easyTxtPlayerThree",name);
+
+            if(storage.getItem("easyTxtScoreOne")==null || storage.getItem("easyTxtScoreOne")=="")
+                storage.setItem("easyTxtScoreOne",textScore);
+            else if(storage.getItem("easyTxtScoreTwo")==null || storage.getItem("easyTxtScoreTwo")=="")
+                storage.setItem("easyTxtScoreTwo",textScore);
+            else if(storage.getItem("easyTxtScoreThree")==null || storage.getItem("easyTxtScoreThree")=="")
+                storage.setItem("easyTxtScoreThree",textScore);
+
+            if(storage.getItem("easyTxtOperationOne")==null || storage.getItem("easyTxtOperationOne")=="")
+                storage.setItem("easyTxtOperationOne",operation);
+            else if(storage.getItem("easyTxtOperationTwo")==null || storage.getItem("easyTxtOperationTwo")=="")
+                storage.setItem("easyTxtOperationTwo",operation);
+            else if(storage.getItem("easyTxtOperationThree")==null || storage.getItem("easyTxtOperationThree")=="")
+                storage.setItem("easyTxtOperationThree",operation);
+        }
+        else if(this.levelOfDifficulty=="ADVANCED"){
+            if(storage.getItem("normalTxtPlayerOne")==null || storage.getItem("normalTxtPlayerOne")=="")
+                storage.setItem("normalTxtPlayerOne",name);
+            else if(storage.getItem("normalTxtPlayerTwo")==null || storage.getItem("normalTxtPlayerTwo")=="")
+                storage.setItem("normalTxttPlayerTwo",name);
+            else if(storage.getItem("normalTxtPlayerThree")==null || storage.getItem("normalTxtPlayerThree")=="")
+                storage.setItem("normalTxtPlayerThree",name);
+
+            if(storage.getItem("normalTxtScoreOne")==null || storage.getItem("normalTxtScoreOne")=="")
+                storage.setItem("normalTxtScoreOne",textScore);
+            else if(storage.getItem("normalTxtScoreTwo")==null || storage.getItem("normalTxtScoreTwo")=="")
+                storage.setItem("normalTxtScoreTwo",textScore);
+            else if(storage.getItem("normalTxtScoreThree")==null || storage.getItem("normalTxtScoreThree")=="")
+                storage.setItem("normalTxtScoreThree",textScore);
+
+            if(storage.getItem("normalTxtOperationOne")==null || storage.getItem("normalTxtOperationOne")=="")
+                storage.setItem("normalTxtOperationOne",operation);
+            else if(storage.getItem("normalTxtOperationTwo")==null || storage.getItem("normalTxtOperationTwo")=="")
+                storage.setItem("normalTxtOperationTwo",operation);
+            else if(storage.getItem("normalTxtOperationThree")==null || storage.getItem("normalTxtOperationThree")=="")
+                storage.setItem("normalTxtOperationThree",operation);
+        }
+        else if(this.levelOfDifficulty=="DIFFICULT"){
+            if(storage.getItem("advancedTxtPlayerOne")==null || storage.getItem("advancedTxtPlayerOne")=="")
+                storage.setItem("advancedTxtPlayerOne",name);
+            else if(storage.getItem("advancedTxtPlayerTwo")==null || storage.getItem("advancedTxtPlayerTwo")=="")
+                storage.setItem("advancedTxttPlayerTwo",name);
+            else if(storage.getItem("advancedTxtPlayerThree")==null || storage.getItem("advancedTxtPlayerThree")=="")
+                storage.setItem("advancedTxtPlayerThree",name);
+
+            if(storage.getItem("advancedTxtScoreOne")==null || storage.getItem("advancedTxtScoreOne")=="")
+                storage.setItem("advancedTxtScoreOne",textScore);
+            else if(storage.getItem("advancedTxtScoreTwo")==null || storage.getItem("advancedTxtScoreTwo")=="")
+                storage.setItem("advancedTxtScoreTwo",textScore);
+            else if(storage.getItem("advancedTxtScoreThree")==null || storage.getItem("advancedTxtScoreThree")=="")
+                storage.setItem("advancedTxtScoreThree",textScore);
+
+            if(storage.getItem("advancedTxtOperationOne")==null || storage.getItem("advancedTxtOperationOne")=="")
+                storage.setItem("advancedTxtOperationOne",operation);
+            else if(storage.getItem("advancedTxtOperationTwo")==null || storage.getItem("advancedTxtOperationTwo")=="")
+                storage.setItem("advancedTxtOperationTwo",operation);
+            else if(storage.getItem("advancedTxtOperationThree")==null || storage.getItem("advancedTxtOperationThree")=="")
+                storage.setItem("advancedTxtOperationThree",operation);
+        }
+
+    },
     showIfCorrect:function(){
         this.correct.setVisible(false);
         this.setComputations();
@@ -369,8 +441,9 @@ var PlayLayer = cc.Layer.extend({
                     lifeSprite2.setVisible(false);
                 else if(lifeSprite1.isVisible())
                     lifeSprite1.setVisible(false);
-            fairySpriteSpeech.setLocalZOrder(100);
-            fairySpriteSpeech.setVisible(true);
+                txtComputation.setString(answer);
+        //    fairySpriteSpeech.setLocalZOrder(100);
+         //   fairySpriteSpeech.setVisible(true);
             this.scheduleOnce(this.showIfIncorrect,2);
         }
 
@@ -399,6 +472,10 @@ var PlayLayer = cc.Layer.extend({
                      this.removeChild(answerSprite3);
                      this.removeChild(answerSprite4);
                      this.removeChild(answerSprite5);
+                     var player = cc.sys.localStorage.getItem("playerName");
+                     var scored = txtScore.getString();
+                     var operation = cc.sys.localStorage.getItem("operation");
+                     this.recordPlayerInfo(player,scored,operation);
                      this.scheduleOnce(this.goHome,3);
                 }
         
@@ -432,6 +509,10 @@ var PlayLayer = cc.Layer.extend({
         if(txtLevel.getString()=="Level 2"){
             if(txtTarget.getString()== "0"){
                 this.setVisibleSprites(false);
+                var player = cc.sys.localStorage.getItem("playerName");
+                var scored = txtScore.getString();
+                var operation = cc.sys.localStorage.getItem("operation");
+                this.recordPlayerInfo(player,scored,operation);
                 this.scheduleOnce(this.completedEasyMode,1);
             }
         }
@@ -450,6 +531,10 @@ var PlayLayer = cc.Layer.extend({
     advancedModePostTransition:function(){
         if(txtTarget.getString()== "0"){
             this.setVisibleSprites(false);
+            var player = cc.sys.localStorage.getItem("playerName");
+            var scored = txtScore.getString();
+            var operation = cc.sys.localStorage.getItem("operation");
+            this.recordPlayerInfo(player,scored,operation);
             this.scheduleOnce(this.completedAdvancedMode,1);
         }
     },
@@ -478,6 +563,10 @@ var PlayLayer = cc.Layer.extend({
     difficultModePostTransition:function(){
         if(txtTarget.getString()== "0"){
             this.setVisibleSprites(false);
+            var player = cc.sys.localStorage.getItem("playerName");
+            var scored = txtScore.getString();
+            var operation = cc.sys.localStorage.getItem("operation");
+            this.recordPlayerInfo(player,scored,operation);
             this.scheduleOnce(this.completedDifficultMode,1);
         }
     },
@@ -531,7 +620,7 @@ var PlayLayer = cc.Layer.extend({
         frogAttackSprite = firstLayer.getChildByName("frogAttackSprite");
         fairySpriteSpeech = firstLayer.getChildByName("fairySpriteSpeech");
         this.correct = new cc.Sprite(res.correctSprite);
-        this.correct.setPosition(cc.p(600,580));
+        this.correct.setPosition(cc.p(550,620));
         this.correct.setVisible(false);
         this.correct.setScale(0.5,0.5);
         this.addChild(this.correct);
@@ -557,8 +646,22 @@ var PlayLayer = cc.Layer.extend({
         this.answerSpritesAnimation();
         this.setComputations();
     },
+    add:function(x,y){
+        return x+y;
+    },
+    subtract:function(x,y){
+        return x-y;
+    },
+    multiplication:function(x,y){
+        return x*y;
+    },
+    division:function(x,y){
+        return x/y;
+    },
     setComputations:function(){
         var n = 0;
+        var op = cc.sys.localStorage.getItem("operation");
+
         switch(this.levelOfDifficulty){
             case "EASY":
                 n = 1;
@@ -567,26 +670,27 @@ var PlayLayer = cc.Layer.extend({
                 n = 2;
                 break;
             case "DIFFICULT":
-                n = 3;
+                n = (op=="division") ? 2:3;
                 break;
         }
-
+  //      var correctAnswer = 0;
         do{ 
             var x;
             var y;
+
             switch(this.levelOfDifficulty){
                 case "EASY":
                 x = this.getRandomByOnes();
                 y = this.getRandomByOnes();
                 var a = x + y;
-                if(txtLevel.getString() == "Level 1  "){ // 0 to 4 answers
+                if(txtLevel.getString() == "Level 1  "){ // range = 0 to 4 result
                     while(a < 0 || a > 4){
                         x = this.getRandomByOnes();
                         y = this.getRandomByOnes();
                         a = x + y;
                     }
                 }
-                else{                                    // 5 to 9 answers
+                else{                                    //range = 5 to 9 result
                      while(a < 5 || a > 9){
                         x = this.getRandomByOnes();
                         y = this.getRandomByOnes();
@@ -599,18 +703,46 @@ var PlayLayer = cc.Layer.extend({
                 y = this.getRandomByTwos();
                 break;
                 case "DIFFICULT":
-                x = this.getRandomByThrees();
-                y = this.getRandomByThrees();
+                if(op=="division"){
+                    x = this.getRandomByTwos();
+                    y = this.getRandomByTwos();
+                }
+                else{
+                    x = this.getRandomByThrees();
+                    y = this.getRandomByThrees();
+                }
                 break;
             }
-              
-            txtComputation.setString(x + " + " +y + " = ");
-            correctAnswer = x + y + "";
+            
+            switch(op){
+                case "addition":
+                correctAnswer = this.add(x,y) + "";
+                txtComputation.setString(x + " + " +y + " = ");
+                answer = x + " + " +y + " = " + correctAnswer;
+                break;
+                case "subtraction":
+                correctAnswer = this.subtract(x,y) + "";
+                txtComputation.setString(x + " - " +y + " = ");
+                answer = x + " - " +y + " = " + correctAnswer;
+                break;
+                case "multiplication":
+                correctAnswer = this.multiplication(x,y) + "";
+                txtComputation.setString(x + " * " +y + " = ");
+                answer = x + " * " +y + " = " + correctAnswer;
+                break;
+                case "division":
+                cc.log("DIVISION : " + this.division(x,y));
+                correctAnswer = this.division(x,y) + "";
+                txtComputation.setString(x + " / " +y + " = ");
+                answer = x + " / " +y + " = " + correctAnswer;
+                break;
+            }
+
         }while(correctAnswer.length!=n);
      
-        answer = x + " + " +y + " = " + correctAnswer;
-        var randomAnswers = [correctAnswer,0,0,0,0];
-
+        
+        var randomAnswersOne = [correctAnswer,0.0,0.0,0.0,0.0];
+        var randomAnswers = new Float32Array(randomAnswersOne);
         for(var i = 1; i < 5; i++){
 
             var random = 0;
@@ -622,11 +754,15 @@ var PlayLayer = cc.Layer.extend({
                 random = this.getRandomByTwos();
                 break;
                 case "DIFFICULT":
-                random = this.getRandomByThrees();
+                if(op=="division"){
+                    random = this.getRandomByTwos();
+                }
+                else
+                    random = this.getRandomByThrees();
                 break;
             }
             if(!this.contains(randomAnswers,random)){
-                randomAnswers[i]= random;
+                randomAnswers[i]= random.toFixed(1);
             }
         }
         var random = this.shuffle(randomAnswers);
@@ -695,27 +831,27 @@ var PlayLayer = cc.Layer.extend({
     initializePointsByDifficulties:function(){
         var answerSpriteAnimation = [];
         if(this.levelOfDifficulty=="EASY"){
-            answerSpriteAnimation[0] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(750,40)));
-            answerSpriteAnimation[1] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(360,40)));
-            answerSpriteAnimation[2] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(750,40))); 
-            answerSpriteAnimation[3]  = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(-750,80)));    
-            answerSpriteAnimation[4]  = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(-750,-40)));
+            answerSpriteAnimation[0] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(750,-20)));
+            answerSpriteAnimation[1] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(360,-20)));
+            answerSpriteAnimation[2] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(750,-20))); 
+            answerSpriteAnimation[3]  = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(-750,20)));    
+            answerSpriteAnimation[4]  = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(-750,-100)));
         }
 
         else if(this.levelOfDifficulty=="ADVANCED"){
-            answerSpriteAnimation[0] = cc.repeatForever(cc.moveTo(3,cc.p(1100,500)));
-            answerSpriteAnimation[1] = cc.repeatForever(cc.moveTo(4,cc.p(1100,450)));
-            answerSpriteAnimation[2] = cc.repeatForever(cc.moveTo(2,cc.p(1100,400)));
-            answerSpriteAnimation[3] = cc.repeatForever(cc.moveTo(6,cc.p(1100,350)));
-            answerSpriteAnimation[4] = cc.repeatForever(cc.moveTo(5,cc.p(1100,400)));
+            answerSpriteAnimation[0] = cc.repeatForever(cc.moveTo(3,cc.p(1100,460)));
+            answerSpriteAnimation[1] = cc.repeatForever(cc.moveTo(4,cc.p(1100,410)));
+            answerSpriteAnimation[2] = cc.repeatForever(cc.moveTo(2,cc.p(1100,360)));
+            answerSpriteAnimation[3] = cc.repeatForever(cc.moveTo(6,cc.p(1100,310)));
+            answerSpriteAnimation[4] = cc.repeatForever(cc.moveTo(5,cc.p(1100,360)));
         }
 
         else if(this.levelOfDifficulty=="DIFFICULT"){
-            answerSpriteAnimation[0] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(750,40)));
-            answerSpriteAnimation[1] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(360,40)));
-            answerSpriteAnimation[2] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(750,-40))); 
-            answerSpriteAnimation[3]  = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(-750,80)));    
-            answerSpriteAnimation[4]  = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(-750,-40)));
+            answerSpriteAnimation[0] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(750,-20)));
+            answerSpriteAnimation[1] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(360,-20)));
+            answerSpriteAnimation[2] = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(750,-100))); 
+            answerSpriteAnimation[3]  = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(-750,40)));    
+            answerSpriteAnimation[4]  = new cc.EaseExponentialOut(cc.moveBy(2,cc.p(-750,-100)));
         }
 
         return answerSpriteAnimation;

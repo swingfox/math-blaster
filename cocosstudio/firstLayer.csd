@@ -182,14 +182,14 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtCompute" ActionTag="-238407742" Tag="119" IconVisible="False" LeftMargin="647.9176" RightMargin="64.0824" TopMargin="27.5129" BottomMargin="553.4871" FontSize="48" LabelText="0    +   0     =       " ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-            <Size X="248.0000" Y="59.0000" />
+          <AbstractNodeData Name="txtCompute" ActionTag="-238407742" Tag="119" IconVisible="False" LeftMargin="652.1031" RightMargin="93.8969" TopMargin="43.1709" BottomMargin="552.8291" FontSize="36" LabelText="0    +   0     =            " ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+            <Size X="214.0000" Y="44.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="771.9176" Y="582.9871" />
+            <Position X="759.1031" Y="574.8291" />
             <Scale ScaleX="1.3925" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.8041" Y="0.9109" />
-            <PreSize X="0.2583" Y="0.0922" />
+            <PrePosition X="0.7907" Y="0.8982" />
+            <PreSize X="0.2229" Y="0.0688" />
             <FontResource Type="Normal" Path="media/Fonts/Impact.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
@@ -205,7 +205,7 @@
             <FileData Type="Normal" Path="media/graphics/frogattack.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="fairySpriteSpeech" CanEdit="False" ActionTag="-912748107" Tag="68" IconVisible="False" LeftMargin="552.4061" RightMargin="-17.4061" TopMargin="29.5174" BottomMargin="468.4826" ctype="SpriteObjectData">
+          <AbstractNodeData Name="fairySpriteSpeech" CanEdit="False" Visible="False" ActionTag="-912748107" Tag="68" IconVisible="False" LeftMargin="552.4061" RightMargin="-17.4061" TopMargin="29.5174" BottomMargin="468.4826" ctype="SpriteObjectData">
             <Size X="425.0000" Y="142.0000" />
             <Children>
               <AbstractNodeData Name="txtRightComputation" CanEdit="False" ActionTag="-144969620" Tag="69" IconVisible="False" LeftMargin="139.5428" RightMargin="187.4572" TopMargin="95.9426" BottomMargin="17.0574" FontSize="24" LabelText="0          0         " ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -242,15 +242,15 @@
             <FileData Type="Normal" Path="media/graphics/fairySpeech.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="homeSprite" CanEdit="False" ActionTag="806924958" Tag="97" IconVisible="False" LeftMargin="24.4050" RightMargin="874.5950" TopMargin="574.0766" BottomMargin="17.9234" ctype="SpriteObjectData">
-            <Size X="61.0000" Y="48.0000" />
+          <AbstractNodeData Name="homeSprite" CanEdit="False" ActionTag="806924958" Tag="97" IconVisible="False" LeftMargin="-171.0950" RightMargin="679.0950" TopMargin="372.0766" BottomMargin="-184.0766" ctype="SpriteObjectData">
+            <Size X="452.0000" Y="452.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="54.9050" Y="41.9234" />
-            <Scale ScaleX="0.8572" ScaleY="1.0000" />
+            <Scale ScaleX="0.1320" ScaleY="0.1134" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.0572" Y="0.0655" />
-            <PreSize X="0.0635" Y="0.0750" />
-            <FileData Type="Normal" Path="media/graphics/homeIcon.PNG" Plist="" />
+            <PreSize X="0.4708" Y="0.7063" />
+            <FileData Type="Normal" Path="media/graphics/pause.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="txtGameOver" CanEdit="False" ActionTag="1942543999" Tag="175" IconVisible="False" LeftMargin="395.0502" RightMargin="341.9498" TopMargin="240.3790" BottomMargin="316.6210" FontSize="72" LabelText="Game Over" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">

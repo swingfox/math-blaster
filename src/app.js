@@ -21,7 +21,7 @@ var HomeLayer = cc.Layer.extend({
     initializeButtonLayer:function(){     
         btnPlay = buttonLayer.getChildByName("btnPlay"); 
         btnInstruction = buttonLayer.getChildByName("btnInstruction");
-        btnQuit = buttonLayer.getChildByName("btnQuit");
+        btnScoreboard = buttonLayer.getChildByName("btnScoreboard");
         
     },    
     initializeTouchListener:function(){   
@@ -37,7 +37,7 @@ var HomeLayer = cc.Layer.extend({
                 var rect = cc.rect(0, 0, s.width, s.height);
                 var name = target.getName();
                 if (cc.rectContainsPoint(rect, locationInNode)) {       
-                    target.setScale(0.8,0.8);
+                    target.setScale(0.4,0.4);
                     return true;
                 }
                 return false;
@@ -46,15 +46,19 @@ var HomeLayer = cc.Layer.extend({
                 var target = event.getCurrentTarget();
                 var name = target.getName();
 
-                target.setScale(1.0,1.0);
+                target.setScale(0.5,0.5);
 
                 if(name=="btnPlay"){
-                        var difficulty = new OperatorScene();
-                        cc.director.pushScene(difficulty);
+                        var playerName = new PlayerNameScene();
+                        cc.director.pushScene(new cc.TransitionFade(0.5,playerName));
                 }
                 else if(name=="btnInstruction"){
                         var instruction = new InstructionScene();
-                        cc.director.pushScene(instruction);
+                        cc.director.pushScene(new cc.TransitionFade(0.5,instruction));
+                }
+                else if(name=="btnScoreboard"){
+                        var scoreboard = new ScoreboardScene();
+                        cc.director.pushScene(new cc.TransitionFade(0.5,scoreboard));
                 }
             }
         });
@@ -63,7 +67,7 @@ var HomeLayer = cc.Layer.extend({
     manageAllListeners:function(){  
        cc.eventManager.addListener(this.touchListener.clone(),btnPlay);
        cc.eventManager.addListener(this.touchListener.clone(),btnInstruction);
-       cc.eventManager.addListener(this.touchListener.clone(),btnQuit);
+       cc.eventManager.addListener(this.touchListener.clone(),btnScoreboard);
     }, 
     playButton:function(touch,event){
         var difficulty = new DifficultyScene();

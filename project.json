@@ -21,6 +21,7 @@
         "src/menuLayer.js",
         "src/levelScene.js",
         "src/operatorsScene.js",
-        "src/playerNameScene.js"
+        "src/playerNameScene.js",
+        "src/scoreboardScene.js"
     ]
 }

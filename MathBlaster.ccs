@@ -7,11 +7,11 @@
           <Folder Name="Fonts">
             <TTF Name="ArticulaDisplaySSI.ttf" />
             <TTF Name="Deanna.ttf" />
+            <TTF Name="DK Cool Crayon.ttf" />
             <TTF Name="Impact.ttf" />
             <TTF Name="StrangeWorld.ttf" />
           </Folder>
           <Folder Name="graphics">
-            <Image Name="Add.png" />
             <Image Name="advanceBtn.png" />
             <Image Name="advancedMode.png" />
             <Image Name="back.png" />
@@ -20,7 +20,6 @@
             <Image Name="correct.png" />
             <Image Name="diffBtn.png" />
             <Image Name="diffComplete.png" />
-            <Image Name="DIVISION.png" />
             <Image Name="EasyButton.png" />
             <Image Name="easyMode.png" />
             <Image Name="exit.png" />
@@ -40,15 +39,35 @@
             <Image Name="menu.png" />
             <Image Name="MrFroggy.png" />
             <Image Name="msgbox.png" />
-            <Image Name="mulitiply.png" />
             <Image Name="myspritesheet.png" />
             <File Name="myspritesheet.xml" />
+            <Image Name="nextbutton.png" />
+            <Image Name="pause.png" />
             <Image Name="scroll.png" />
             <Image Name="startgame background.png" />
-            <Image Name="sub.png" />
             <File Name="tongue.xml" />
             <Image Name="white.png" />
             <Image Name="wood.png" />
+          </Folder>
+          <Folder Name="home">
+            <Image Name="HOME.png" />
+            <Image Name="INS.png" />
+            <Image Name="PLAY.png" />
+            <Image Name="scoreboard.png" />
+          </Folder>
+          <Folder Name="operations">
+            <Image Name="addition.png" />
+            <Image Name="DIVISION.png" />
+            <Image Name="multiplication.png" />
+            <Image Name="Subtraction.png" />
+          </Folder>
+          <Folder Name="scoreboard">
+            <Image Name="advance.png" />
+            <Image Name="bac.png" />
+            <Image Name="difficultyScroll.png" />
+            <Image Name="easy.png" />
+            <Image Name="normal.png" />
+            <Image Name="scoreboardScroll.png" />
           </Folder>
           <Folder Name="sounds">
             <Audio Name="bit of fun.mp3" />
@@ -74,6 +93,8 @@
         <Project Name="playerNameLayer.csd" Type="Layer" />
         <Project Name="playerNameScene.csd" Type="Scene" />
         <Project Name="PlayScene.csd" Type="Scene" />
+        <Project Name="ScoreboardLayer.csd" Type="Layer" />
+        <Project Name="ScoreboardScene.csd" Type="Scene" />
       </RootFolder>
     </Group>
   </SolutionFolder>

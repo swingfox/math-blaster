@@ -28,5 +28,24 @@
         <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="ScoreboardLayer.csd" />
+          <FilePathData Path="MainScene.csd" />
+          <FilePathData Path="MenuLayer.csd" />
+          <FilePathData Path="homeButtonLayer.csd" />
+          <FilePathData Path="ScoreboardScene.csd" />
+          <FilePathData Path="firstLayer.csd" />
+          <FilePathData Path="difficultyLayer.csd" />
+          <FilePathData Path="operationScene.csd" />
+          <FilePathData Path="operationLayer.csd" />
+          <FilePathData Path="playerNameScene.csd" />
+          <FilePathData Path="playerNameLayer.csd" />
+          <FilePathData Path="PlayScene.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="firstLayer.csd" />
+      </Value>
+    </Item>
   </Properties>
 </UserData>

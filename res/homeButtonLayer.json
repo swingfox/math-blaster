@@ -17,7 +17,7 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "media/graphics/HomePlayBtn.png",
+              "Path": "media/home/PLAY.png",
               "Plist": ""
             },
             "BlendFunc": {
@@ -29,32 +29,32 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 240.5573,
-              "Y": 239.7082
+              "X": 241.6663,
+              "Y": 239.7083
             },
             "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
+              "ScaleX": 0.5358,
+              "ScaleY": 0.5142
             },
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.2506,
+              "X": 0.2517,
               "Y": 0.3745
             },
             "PreSize": {
-              "X": 0.201,
-              "Y": 0.0797
+              "X": 0.4479,
+              "Y": 0.1641
             },
-            "LeftMargin": 144.0573,
-            "RightMargin": 622.9427,
-            "TopMargin": 374.7918,
-            "BottomMargin": 214.2082,
+            "LeftMargin": 26.6663,
+            "RightMargin": 503.3337,
+            "TopMargin": 347.7917,
+            "BottomMargin": 187.2083,
             "Tag": 53,
             "ActionTag": 934326561,
             "Size": {
-              "X": 193.0,
-              "Y": 51.0
+              "X": 430.0,
+              "Y": 105.0
             },
             "Name": "btnPlay",
             "ctype": "SpriteObjectData"
@@ -62,7 +62,7 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "media/graphics/HomeQuitBtn.png",
+              "Path": "media/home/INS.png",
               "Plist": ""
             },
             "BlendFunc": {
@@ -74,40 +74,40 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 243.7641,
-              "Y": 92.1718
+              "X": 240.6951,
+              "Y": 167.2167
             },
             "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
+              "ScaleX": 0.5358,
+              "ScaleY": 0.5353
             },
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.2539,
-              "Y": 0.144
+              "X": 0.2507,
+              "Y": 0.2613
             },
             "PreSize": {
-              "X": 0.201,
-              "Y": 0.0797
+              "X": 0.4479,
+              "Y": 0.1641
             },
-            "LeftMargin": 147.2641,
-            "RightMargin": 619.736,
-            "TopMargin": 522.3282,
-            "BottomMargin": 66.6718,
-            "Tag": 54,
-            "ActionTag": 798023087,
+            "LeftMargin": 25.6951,
+            "RightMargin": 504.3049,
+            "TopMargin": 420.2833,
+            "BottomMargin": 114.7167,
+            "Tag": 55,
+            "ActionTag": -1401303698,
             "Size": {
-              "X": 193.0,
-              "Y": 51.0
+              "X": 430.0,
+              "Y": 105.0
             },
-            "Name": "btnQuit",
+            "Name": "btnInstruction",
             "ctype": "SpriteObjectData"
           },
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "media/graphics/HomeInstructionBtn.png",
+              "Path": "media/home/scoreboard.png",
               "Plist": ""
             },
             "BlendFunc": {
@@ -119,34 +119,34 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 242.6951,
-              "Y": 170.2167
+              "X": 241.5187,
+              "Y": 93.1264
             },
             "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
+              "ScaleX": 0.5338,
+              "ScaleY": 0.5356
             },
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.2528,
-              "Y": 0.266
+              "X": 0.2516,
+              "Y": 0.1455
             },
             "PreSize": {
-              "X": 0.201,
-              "Y": 0.0797
+              "X": 0.4479,
+              "Y": 0.1641
             },
-            "LeftMargin": 146.1951,
-            "RightMargin": 620.8049,
-            "TopMargin": 444.2833,
-            "BottomMargin": 144.7167,
-            "Tag": 55,
-            "ActionTag": -1401303698,
+            "LeftMargin": 26.5187,
+            "RightMargin": 503.4813,
+            "TopMargin": 494.3736,
+            "BottomMargin": 40.6264,
+            "Tag": 27,
+            "ActionTag": 1211806585,
             "Size": {
-              "X": 193.0,
-              "Y": 51.0
+              "X": 430.0,
+              "Y": 105.0
             },
-            "Name": "btnInstruction",
+            "Name": "btnScoreboard",
             "ctype": "SpriteObjectData"
           }
         ],
@@ -158,9 +158,9 @@
         "ctype": "LayerObjectData"
       },
       "UsedResources": [
-        "media/graphics/HomeInstructionBtn.png",
-        "media/graphics/HomePlayBtn.png",
-        "media/graphics/HomeQuitBtn.png"
+        "media/home/INS.png",
+        "media/home/PLAY.png",
+        "media/home/scoreboard.png"
       ],
       "ctype": "GameFileData"
     }
