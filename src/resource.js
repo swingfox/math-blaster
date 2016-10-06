@@ -43,6 +43,7 @@ var res = {
     darkBlueSprite : "res/media/graphics/darkBlue.png",
     brownSprite : "res/media/graphics/brown.png",
     correctSprite : "res/media/graphics/correct.png",
+    wrongSprite : "res/media/scoreboard/wrong.png"
 };
 
 var g_resources = [];

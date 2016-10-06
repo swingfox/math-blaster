@@ -28,7 +28,7 @@
             <FileData Type="Normal" Path="media/scoreboard/difficultyScroll.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="scoreboardScroll_4" ActionTag="1199751432" Tag="9" IconVisible="False" LeftMargin="243.1005" RightMargin="-64.1005" TopMargin="-50.6035" BottomMargin="-72.3965" ctype="SpriteObjectData">
+          <AbstractNodeData Name="scoreboardScroll_4" ActionTag="1199751432" Tag="9" IconVisible="False" LeftMargin="243.1005" RightMargin="-64.1006" TopMargin="-50.6035" BottomMargin="-72.3965" ctype="SpriteObjectData">
             <Size X="781.0000" Y="763.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="633.6005" Y="309.1035" />
@@ -51,37 +51,37 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtPlayer" ActionTag="-1388400221" Tag="11" IconVisible="False" LeftMargin="392.2741" RightMargin="450.7259" TopMargin="134.5977" BottomMargin="465.4023" FontSize="36" LabelText="Player" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtPlayer" ActionTag="-1388400221" Tag="11" IconVisible="False" LeftMargin="378.2739" RightMargin="464.7261" TopMargin="134.5977" BottomMargin="465.4023" FontSize="36" LabelText="Player" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="117.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="450.7741" Y="485.4023" />
+            <Position X="436.7739" Y="485.4023" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="255" />
-            <PrePosition X="0.4696" Y="0.7584" />
+            <PrePosition X="0.4550" Y="0.7584" />
             <PreSize X="0.1219" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtScore" ActionTag="-218800861" Tag="12" IconVisible="False" LeftMargin="584.3237" RightMargin="270.6763" TopMargin="130.8983" BottomMargin="469.1017" FontSize="36" LabelText="Score" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtScore" ActionTag="-218800861" Tag="12" IconVisible="False" LeftMargin="557.3232" RightMargin="297.6768" TopMargin="130.8986" BottomMargin="469.1014" FontSize="36" LabelText="Score" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="105.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="636.8237" Y="489.1017" />
+            <Position X="609.8232" Y="489.1014" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="255" />
-            <PrePosition X="0.6634" Y="0.7642" />
+            <PrePosition X="0.6352" Y="0.7642" />
             <PreSize X="0.1094" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtOperation" ActionTag="-507383219" Tag="13" IconVisible="False" LeftMargin="735.1730" RightMargin="44.8270" TopMargin="127.7330" BottomMargin="472.2670" FontSize="36" LabelText="Operation" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtOperation" ActionTag="-507383219" Tag="13" IconVisible="False" LeftMargin="698.1734" RightMargin="81.8266" TopMargin="127.7330" BottomMargin="472.2670" FontSize="36" LabelText="Operation" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="180.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="825.1730" Y="492.2670" />
+            <Position X="788.1734" Y="492.2670" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="255" />
-            <PrePosition X="0.8596" Y="0.7692" />
+            <PrePosition X="0.8210" Y="0.7692" />
             <PreSize X="0.1875" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
@@ -131,109 +131,109 @@
             <FileData Type="Normal" Path="media/scoreboard/bac.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtPlayerOne" ActionTag="1053503942" Tag="29" IconVisible="False" LeftMargin="395.9928" RightMargin="425.0072" TopMargin="237.8032" BottomMargin="362.1968" FontSize="36" LabelText="Player 1" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtPlayerOne" ActionTag="1053503942" Tag="29" IconVisible="False" LeftMargin="381.9926" RightMargin="439.0074" TopMargin="237.8033" BottomMargin="362.1967" FontSize="36" LabelText="Player 1" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="139.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="465.4928" Y="382.1968" />
+            <Position X="451.4926" Y="382.1967" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="0" />
-            <PrePosition X="0.4849" Y="0.5972" />
+            <PrePosition X="0.4703" Y="0.5972" />
             <PreSize X="0.1448" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtScoreOne" ActionTag="-1960347491" Tag="30" IconVisible="False" LeftMargin="588.5557" RightMargin="245.4443" TopMargin="234.5469" BottomMargin="365.4531" FontSize="36" LabelText="Score 1" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtScoreOne" ActionTag="-1960347491" Tag="30" IconVisible="False" LeftMargin="554.5546" RightMargin="279.4454" TopMargin="234.5469" BottomMargin="365.4531" FontSize="36" LabelText="Score 1" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="126.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="651.5557" Y="385.4531" />
+            <Position X="617.5546" Y="385.4531" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="0" />
-            <PrePosition X="0.6787" Y="0.6023" />
+            <PrePosition X="0.6433" Y="0.6023" />
             <PreSize X="0.1312" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtOperationOne" ActionTag="1841420955" Tag="31" IconVisible="False" LeftMargin="716.5009" RightMargin="-33.5009" TopMargin="231.7856" BottomMargin="368.2144" FontSize="36" LabelText="Operation 1       " ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtOperationOne" ActionTag="1841420955" Tag="31" IconVisible="False" LeftMargin="694.5016" RightMargin="-11.5016" TopMargin="231.7856" BottomMargin="368.2144" FontSize="36" LabelText="Operation 1       " ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="277.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="855.0009" Y="388.2144" />
+            <Position X="833.0016" Y="388.2144" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="0" />
-            <PrePosition X="0.8906" Y="0.6066" />
+            <PrePosition X="0.8677" Y="0.6066" />
             <PreSize X="0.2885" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtPlayerTwo" ActionTag="-141781918" Tag="32" IconVisible="False" LeftMargin="391.8860" RightMargin="418.1140" TopMargin="337.1476" BottomMargin="262.8524" FontSize="36" LabelText="Player 2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtPlayerTwo" ActionTag="-141781918" Tag="32" IconVisible="False" LeftMargin="377.8861" RightMargin="432.1139" TopMargin="337.1476" BottomMargin="262.8524" FontSize="36" LabelText="Player 2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="150.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="466.8860" Y="282.8524" />
+            <Position X="452.8861" Y="282.8524" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="0" />
-            <PrePosition X="0.4863" Y="0.4420" />
+            <PrePosition X="0.4718" Y="0.4420" />
             <PreSize X="0.1563" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtScoreTwo" ActionTag="-1712032953" Tag="33" IconVisible="False" LeftMargin="582.4442" RightMargin="240.5558" TopMargin="333.8913" BottomMargin="266.1087" FontSize="36" LabelText="Score 2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtScoreTwo" ActionTag="-1712032953" Tag="33" IconVisible="False" LeftMargin="548.4448" RightMargin="274.5552" TopMargin="333.8913" BottomMargin="266.1087" FontSize="36" LabelText="Score 2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="137.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="650.9442" Y="286.1087" />
+            <Position X="616.9448" Y="286.1087" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="0" />
-            <PrePosition X="0.6781" Y="0.4470" />
+            <PrePosition X="0.6427" Y="0.4470" />
             <PreSize X="0.1427" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtPlayerThree" ActionTag="1794427087" Tag="35" IconVisible="False" LeftMargin="390.0324" RightMargin="418.9676" TopMargin="432.2365" BottomMargin="167.7635" FontSize="36" LabelText="Player 3" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtPlayerThree" ActionTag="1794427087" Tag="35" IconVisible="False" LeftMargin="376.0320" RightMargin="432.9680" TopMargin="432.2365" BottomMargin="167.7635" FontSize="36" LabelText="Player 3" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="151.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="465.5324" Y="187.7635" />
+            <Position X="451.5320" Y="187.7635" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="0" />
-            <PrePosition X="0.4849" Y="0.2934" />
+            <PrePosition X="0.4703" Y="0.2934" />
             <PreSize X="0.1573" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtScoreThree" ActionTag="1991267150" Tag="36" IconVisible="False" LeftMargin="580.5873" RightMargin="241.4127" TopMargin="428.9801" BottomMargin="171.0199" FontSize="36" LabelText="Score 3" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtScoreThree" ActionTag="1991267150" Tag="36" IconVisible="False" LeftMargin="546.5865" RightMargin="275.4135" TopMargin="428.9801" BottomMargin="171.0199" FontSize="36" LabelText="Score 3" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="138.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="649.5873" Y="191.0199" />
+            <Position X="615.5865" Y="191.0199" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="0" />
-            <PrePosition X="0.6767" Y="0.2985" />
+            <PrePosition X="0.6412" Y="0.2985" />
             <PreSize X="0.1437" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtOperationTwo" ActionTag="357577720" Tag="22" IconVisible="False" LeftMargin="720.5000" RightMargin="-9.5000" TopMargin="331.7850" BottomMargin="268.2150" FontSize="36" LabelText="Operation 2    " ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtOperationTwo" ActionTag="357577720" Tag="22" IconVisible="False" LeftMargin="698.5013" RightMargin="12.4987" TopMargin="331.7850" BottomMargin="268.2150" FontSize="36" LabelText="Operation 2    " ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="249.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="845.0000" Y="288.2150" />
+            <Position X="823.0013" Y="288.2150" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="0" />
-            <PrePosition X="0.8802" Y="0.4503" />
+            <PrePosition X="0.8573" Y="0.4503" />
             <PreSize X="0.2594" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="txtOperationThree" ActionTag="311096538" Tag="23" IconVisible="False" LeftMargin="719.5000" RightMargin="-10.5000" TopMargin="425.7847" BottomMargin="174.2153" FontSize="36" LabelText="Operation 3    " ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="txtOperationThree" ActionTag="311096538" Tag="23" IconVisible="False" LeftMargin="697.5013" RightMargin="11.4987" TopMargin="425.7847" BottomMargin="174.2153" FontSize="36" LabelText="Operation 3    " ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="251.0000" Y="40.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="845.0000" Y="194.2153" />
+            <Position X="823.0013" Y="194.2153" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="0" G="0" B="0" />
-            <PrePosition X="0.8802" Y="0.3035" />
+            <PrePosition X="0.8573" Y="0.3035" />
             <PreSize X="0.2615" Y="0.0625" />
             <FontResource Type="Normal" Path="media/Fonts/DK Cool Crayon.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />

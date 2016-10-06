@@ -47,12 +47,14 @@ var MenuLayer = cc.Layer.extend({
                 this._pausedTargets = cc.director.getActionManager().pauseAllRunningActions();
                 this._isPaused = true;
                 this._playScene.stopChangeColor();
+                this._playLayer.setVisibleAnswers(false);
                 this._playLayer.removeListeners();
             }
             else{
                 cc.director.getActionManager().resumeTargets(this._pausedTargets);
                 this._isPaused = false;
                 this._playScene.playChangeColor();
+                this._playLayer.setVisibleAnswers(true);
                 this._playLayer.resumeListeners();
             }
             this._swallowTouches = true;

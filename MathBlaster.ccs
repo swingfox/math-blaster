@@ -68,6 +68,7 @@
             <Image Name="easy.png" />
             <Image Name="normal.png" />
             <Image Name="scoreboardScroll.png" />
+            <Image Name="wrong.png" />
           </Folder>
           <Folder Name="sounds">
             <Audio Name="bit of fun.mp3" />

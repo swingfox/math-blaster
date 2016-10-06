@@ -75,9 +75,13 @@ var PlayScene = cc.Scene.extend({
        this.playLayer.setVisibleSprites(true);
     },
     pause:function() {
+        if(this.playLayer!=null)
+        this.playLayer.setVisibleAnswers(false);
         this._pausedTargets = cc.director.getActionManager().pauseAllRunningActions();
     },
     resume:function() {
+        if(this.playLayer!=null)
+        this.playLayer.setVisibleAnswers(true);
         cc.director.getActionManager().resumeTargets(this._pausedTargets);
     }
 });
@@ -113,6 +117,13 @@ var PlayLayer = cc.Layer.extend({
         this.btnNext.setString(cc.sys.localStorage.getItem("playerName"));
         this.playSong();
 	},
+    setVisibleAnswers:function(value){
+        txtAnswer1.setVisible(value);
+        txtAnswer2.setVisible(value);
+        txtAnswer3.setVisible(value);
+        txtAnswer4.setVisible(value);
+        txtAnswer5.setVisible(value);
+    },
     getFrogAttackSprite:function(){
         return frogAttackSprite;
     },
@@ -301,6 +312,7 @@ var PlayLayer = cc.Layer.extend({
     recordPlayerInfo:function(name,score,operation){
         var storage = cc.sys.localStorage;
         var textScore = score+"";
+        var score = parseInt(txtScore);
         if(this.levelOfDifficulty=="EASY"){
             if(storage.getItem("easyTxtPlayerOne")==null || storage.getItem("easyTxtPlayerOne")=="")
                 storage.setItem("easyTxtPlayerOne",name);
@@ -327,7 +339,7 @@ var PlayLayer = cc.Layer.extend({
             if(storage.getItem("normalTxtPlayerOne")==null || storage.getItem("normalTxtPlayerOne")=="")
                 storage.setItem("normalTxtPlayerOne",name);
             else if(storage.getItem("normalTxtPlayerTwo")==null || storage.getItem("normalTxtPlayerTwo")=="")
-                storage.setItem("normalTxttPlayerTwo",name);
+                storage.setItem("normalTxtPlayerTwo",name);
             else if(storage.getItem("normalTxtPlayerThree")==null || storage.getItem("normalTxtPlayerThree")=="")
                 storage.setItem("normalTxtPlayerThree",name);
 
@@ -349,7 +361,7 @@ var PlayLayer = cc.Layer.extend({
             if(storage.getItem("advancedTxtPlayerOne")==null || storage.getItem("advancedTxtPlayerOne")=="")
                 storage.setItem("advancedTxtPlayerOne",name);
             else if(storage.getItem("advancedTxtPlayerTwo")==null || storage.getItem("advancedTxtPlayerTwo")=="")
-                storage.setItem("advancedTxttPlayerTwo",name);
+                storage.setItem("advancedTxtPlayerTwo",name);
             else if(storage.getItem("advancedTxtPlayerThree")==null || storage.getItem("advancedTxtPlayerThree")=="")
                 storage.setItem("advancedTxtPlayerThree",name);
 
@@ -387,7 +399,7 @@ var PlayLayer = cc.Layer.extend({
         this.resumeListeners();
     },
     showIfIncorrect:function(){ 
-        fairySpriteSpeech.setVisible(false);
+        this.wrong.setVisible(false);
         this.setComputations();
         this.removeColorSprites();
         this.shuffleColorSprites();
@@ -403,9 +415,11 @@ var PlayLayer = cc.Layer.extend({
         this.resumeListeners();
     },
     pause:function() {
+        this.setVisibleAnswers(false);
         this._pausedTargets = cc.director.getActionManager().pauseAllRunningActions();
     },
     resume:function() {
+         this.setVisibleAnswers(true);
         cc.director.getActionManager().resumeTargets(this._pausedTargets);
     },
     checkAnswer:function(answerSprite,txtSprite,target){
@@ -435,6 +449,7 @@ var PlayLayer = cc.Layer.extend({
 
         }
         else{
+            this.wrong.setVisible(true);
                 if(lifeSprite3.isVisible())
                     lifeSprite3.setVisible(false);
                 else if(lifeSprite2.isVisible())
@@ -472,10 +487,6 @@ var PlayLayer = cc.Layer.extend({
                      this.removeChild(answerSprite3);
                      this.removeChild(answerSprite4);
                      this.removeChild(answerSprite5);
-                     var player = cc.sys.localStorage.getItem("playerName");
-                     var scored = txtScore.getString();
-                     var operation = cc.sys.localStorage.getItem("operation");
-                     this.recordPlayerInfo(player,scored,operation);
                      this.scheduleOnce(this.goHome,3);
                 }
         
@@ -511,7 +522,10 @@ var PlayLayer = cc.Layer.extend({
                 this.setVisibleSprites(false);
                 var player = cc.sys.localStorage.getItem("playerName");
                 var scored = txtScore.getString();
+                var iScore = parseInt(scored);
                 var operation = cc.sys.localStorage.getItem("operation");
+              //  cc.log("easyModePostTransition");
+                if(iScore >= 20)
                 this.recordPlayerInfo(player,scored,operation);
                 this.scheduleOnce(this.completedEasyMode,1);
             }
@@ -534,6 +548,8 @@ var PlayLayer = cc.Layer.extend({
             var player = cc.sys.localStorage.getItem("playerName");
             var scored = txtScore.getString();
             var operation = cc.sys.localStorage.getItem("operation");
+            var iScore = parseInt(scored);
+            if(iScore>=20)
             this.recordPlayerInfo(player,scored,operation);
             this.scheduleOnce(this.completedAdvancedMode,1);
         }
@@ -566,6 +582,8 @@ var PlayLayer = cc.Layer.extend({
             var player = cc.sys.localStorage.getItem("playerName");
             var scored = txtScore.getString();
             var operation = cc.sys.localStorage.getItem("operation");
+            var iScore = parseInt(scored);
+            if(iScore>=20)
             this.recordPlayerInfo(player,scored,operation);
             this.scheduleOnce(this.completedDifficultMode,1);
         }
@@ -607,11 +625,11 @@ var PlayLayer = cc.Layer.extend({
         }
         else if(difficulty=="ADVANCED"){
             txtTarget.setString("30");
-            txtType.setString("Advanced");
+            txtType.setString("Normal");
         }
         else if(difficulty=="DIFFICULT"){
             txtTarget.setString("40");
-            txtType.setString("Difficult"); 
+            txtType.setString("Advanced"); 
         }
     },
     initializeMiscSprites:function(){
@@ -624,6 +642,12 @@ var PlayLayer = cc.Layer.extend({
         this.correct.setVisible(false);
         this.correct.setScale(0.5,0.5);
         this.addChild(this.correct);
+
+        this.wrong = new cc.Sprite(res.wrongSprite);
+        this.wrong.setPosition(cc.p(560,620));
+        this.wrong.setVisible(false);
+        this.wrong.setScale(0.2,0.2);
+        this.addChild(this.wrong);
 
         optionsSprite = new MenuLayer(this,this.scenePlay);
         this.addChild(optionsSprite);
